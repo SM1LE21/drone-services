@@ -6,40 +6,87 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
-  },
-  {
-    id: "product",
-    title: "Product",
+    id: "services",
+    title: "Services",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "About Us",
   },
 ];
 
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    price: 299,
+    title: "Basic Coverage",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Get raw video footage of your entire event. Ideal for those who prefer a simple, unedited record.",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    price: 595,
+    title: "Standard Package",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Enjoy a professionally edited 10-minute highlight reel along with all raw footage, perfect for sharing your event's best moments.",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    price: 895,
+    title: "Premium Package",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Receive a comprehensive 20-minute video edit, 30-50 high-resolution images, custom music, and a revision session, capturing every aspect of your event in stunning detail.",
+  },
+];
+
+export const services_2 = [
+  {
+    id: "feature-1",
+    price: 249,
+    title: "Basic Flyover",
+    content:
+      "5-10 aerial photos and raw video footage of the property, perfect for quick and efficient property showcases.",
+  },
+  {
+    id: "feature-2",
+    price: 495,
+    title: "Standard Package",
+    content:
+      "Obtain 10-20 high-quality aerial photos and a 2-3 minute video tour with basic editing, ideal for detailed property presentations.",
+  },
+  {
+    id: "feature-3",
+    price: 795,
+    title: "Premium Package",
+    content:
+      "Receive 20-30 stunning aerial photos, a 3-5 minute cinematic video tour, advanced editing features, twilight shots, and 3D mapping, providing a comprehensive view of your property.",
+  },
+];
+
+export const about_us = [
+  {
+    id: "about-1",
+    content:
+      "Meet Darren, the multi-talented maestro behind the lens. As our video editor, photographer, and drone pilot, Darren is always on the pursuit of the perfect shot, blending art and technology seamlessly.",
+    name: "Delgado Darren",
+    title: "Drone Pilot, Photographer",
+    img: people01,
+  },
+  {
+    id: "about-2",
+    content:
+      "Say hello to Ben, our cheerful drone pilot for events. With a smile that never fades, Ben is dedicated to not only capturing the shots our clients envision but also exceeding their expectations with every flight.",
+    name: "Ben Thillen",
+    title: "Drone Pilot, Event Specialist",
+    img: people02,
+  },
+  {
+    id: "about-3",
+    content:
+      "Meet Tun, the mastermind of precision in our team. As both a drone pilot and our operations manager, he oversees every technical detail, ensuring that our projects are executed flawlessly and efficiently.",
+    name: "Keltesch Tun",
+    title: "Drone Pilot, Operations Manager",
+    img: people03,
   },
 ];
 
