@@ -6,37 +6,43 @@ import { CustomRequestButton } from "./Button";
 const CustomService = () => {
   const [videoLoaded, setVideoLoaded] = useState(false);
 
-  // Preloading video
   useEffect(() => {
     const video = document.createElement('video');
     video.src = vid;
-    video.onloadeddata = () => {
+    video.muted = true; // Ensure the video is muted
+    video.playsInline = true; // This should help autoplay on iOS devices
+
+    // Use the 'canplaythrough' event to set video as loaded
+    video.oncanplaythrough = () => {
       setVideoLoaded(true);
+      video.oncanplaythrough = null; // Cleanup event listener after it's loaded
     };
+
+    // Append video to the body to ensure it can start loading (off-screen)
+    video.style.display = 'none'; // Hide video element
+    document.body.appendChild(video);
+
     // Cleanup to avoid memory leaks
     return () => {
-      video.onloadeddata = null;
+      document.body.removeChild(video);
     };
   }, []);
 
   return (
-    <section id="" className={layout.sectionReverse}>
+    <section className={layout.sectionReverse}>
       <div className={layout.sectionImgReverse}>
-        {/* Video player */}
         {videoLoaded ? (
-          <video src={vid} alt="billing" className="w-[100%] h-[100%] relative z-[5]" autoPlay loop muted playsInline controls={false}>
+          <video src={vid} alt="billing" className="w-full h-full relative z-5" autoPlay loop muted playsInline controls={false}>
             Your browser does not support the video tag.
           </video>
         ) : (
-          <div className="flex justify-center items-center w-[100%] h-[100%]">
+          <div className="flex justify-center items-center w-full h-full">
             Loading...
           </div>
         )}
-
-        {/* gradient start */}
-        <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
-        <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
-        {/* gradient end */}
+        
+        <div className="absolute z-3 -left-1/2 top-0 w-1/2 h-1/2 rounded-full white__gradient"></div>
+        <div className="absolute z-0 w-1/2 h-1/2 -left-1/2 bottom-0 rounded-full pink__gradient"></div>
       </div>
 
       <div className={layout.sectionInfo}>
@@ -48,7 +54,7 @@ const CustomService = () => {
         </p>
 
         <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-          <CustomRequestButton styles={`mt-10`} />
+          <CustomRequestButton styles="mt-10" />
         </div>
       </div>
     </section>
