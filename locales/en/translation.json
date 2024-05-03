@@ -1,0 +1,21 @@
+{
+    "hero": {
+        "elevate": "Elevate Your",
+        "perspective": "Perspective",
+        "drone": "With Drone Imagery",
+        "discount": "20%",
+        "discount_tagline": "Discount For 1 Month Account",
+        "hero_subtitle": "with Drone Imagery",
+        "hero_description": "With passion at the core, our adaptable drone services based in Luxembourg deliver clean, compelling visual content, ready to meet the unique requirements of clients both locally and beyond.",
+        "get_started": "Get Started"
+
+    },
+    "constants": {
+        "home": "home",
+        "services": "Services",
+        "clients": "Clients",
+        "contact": "Contact"
+    }
+
+  }
+  
