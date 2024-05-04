@@ -76,7 +76,7 @@ export const about_us = [
     id: "about-2",
     content:
       "Say hello to Ben, our cheerful drone pilot for events. With a smile that never fades, Ben is dedicated to not only capturing the shots our clients envision but also exceeding their expectations with every flight.",
-    name: "Ben Thillen",
+    name: "Thillen Ben",
     title: "Drone Pilot, Event Specialist",
     img: people02,
   },
