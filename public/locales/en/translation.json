@@ -8,14 +8,83 @@
         "hero_subtitle": "with Drone Imagery",
         "hero_description": "With passion at the core, our adaptable drone services based in Luxembourg deliver clean, compelling visual content, ready to meet the unique requirements of clients both locally and beyond.",
         "get_started": "Get Started"
-
     },
     "constants": {
         "home": "home",
         "services": "Services",
         "clients": "Clients",
         "contact": "Contact"
+    },
+    "services1": {
+        "title": "Event Photography",
+        "description": "Elevate the experience of your attendees and the memory of your event with our elite drone coverage. Specializing in aerial photography for any occasion—from weddings to corporate events to sports—our drones are piloted by certified professionals who are adept at capturing unique, breathtaking perspectives that traditional photography simply cannot achieve.",
+        "features": {
+            "feature1": {
+                "title": "Basic Coverage",
+                "description": "Get raw video footage of your entire event. Ideal for those who prefer a simple, unedited record."
+            },
+            "feature2": {
+                "title": "Standard Package",
+                "description": "Enjoy a professionally edited 5-10 minute highlight reel along with all raw footage, perfect for sharing your event's best moments."
+            },
+            "feature3": {
+                "title": "Premium Package",
+                "description": "Receive a comprehensive 10-20 minute video edit, 30-50 high-resolution images, custom music, and a revision session, capturing every aspect of your event in stunning detail."
+            }
+        }
+    },
+    "services2": {
+        "title": "Real Estate Photography",
+        "description": "Set your real estate properties apart with stunning aerial imagery. Our certified drone pilots specialize in capturing the beauty and uniqueness of each property, providing potential buyers with a dynamic and attractive presentation that increases interest and engagement.",
+        "features": {
+            "feature1": {
+                "title": "Basic Flyover",
+                "description": "5-10 aerial photos and raw video footage of the property, perfect for quick and efficient property showcases."
+            },
+            "feature2": {
+                "title": "Standard Package",
+                "description": "Receive 20-30 stunning aerial photos, a 3-5 minute cinematic video tour, advanced editing features, twilight shots, and 3D mapping, providing a comprehensive view of your property."
+            },
+            "feature3": {
+                "title": "Premium Package",
+                "description": "Receive 20-30 stunning aerial photos, a 3-5 minute cinematic video tour, advanced editing features, twilight shots, and 3D mapping, providing a comprehensive view of your property."
+            }
+        }
+    },
+    "customService": {
+        "title": "Custom Solutions for Your Unique Needs",
+        "description": "We know every project is unique. That's why we're more than willing to adapt our drone services to fit your specific needs. Get in touch to discuss your project, and let's work together to create a custom solution that suits your requirements and budget.",
+        "loading": "Loading...",
+        "videoAlt": "Billing",
+        "videoNotSupported": "Your browser does not support the video tag."
+    },
+    "about": {
+        "title": "About Us",
+        "description": "We're a young and energetic team from Luxembourg. We love what we do and are happy to travel to provide our drone services. Wherever you are, we're here to help capture great visuals for you."
+    },
+    "cta": {
+        "title": "Contact Us!",
+        "description": "Learn how our drone services can enhance your project with stunning aerial visuals."
+    },
+    "footer": {
+        "logoAlt": "SwiftDrones",
+        "tagline": "Elevate Your Perspective with Drone Imagery",
+        "copyRight": "Copyright Ⓒ 2024 SwiftDrones. All Rights Reserved."
+    },
+    "buttons": {
+        "getStarted": "Get Started",
+        "customRequest": "Custom Request"
+    },
+    "nav": {
+        "links": {
+            "services": {
+                "id": "services",
+                "title": "Services"
+            },
+            "about": {
+                "id": "about",
+                "title": "About Us"
+            }
+        }
     }
-
-  }
-  
+}

@@ -358,3 +358,7 @@
 .input:focus {
   border: 2px solid grey;
 }
+
+.cursor-pointer {
+  cursor: pointer;
+}

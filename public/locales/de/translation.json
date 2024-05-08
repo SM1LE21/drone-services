@@ -1,0 +1,90 @@
+{
+    "hero": {
+        "elevate": "Erheben Sie Ihre",
+        "perspective": "Perspektive",
+        "drone": "mit Drohnenbildern",
+        "discount": "20%",
+        "discount_tagline": "Rabatt für 1 Monatskonto",
+        "hero_subtitle": "mit Drohnenbildern",
+        "hero_description": "Mit Leidenschaft im Kern liefern unsere anpassbaren Drohnendienste mit Sitz in Luxemburg saubere, überzeugende visuelle Inhalte, bereit, die einzigartigen Anforderungen von Kunden sowohl lokal als auch darüber hinaus zu erfüllen.",
+        "get_started": "Jetzt starten"
+    },
+    "constants": {
+        "home": "Startseite",
+        "services": "Dienstleistungen",
+        "clients": "Kunden",
+        "contact": "Kontakt"
+    },
+    "services1": {
+        "title": "Eventfotografie",
+        "description": "Steigern Sie das Erlebnis Ihrer Teilnehmer und die Erinnerung an Ihr Event mit unserer erstklassigen Drohnenabdeckung. Spezialisiert auf Luftaufnahmen für jede Gelegenheit – von Hochzeiten über Firmenveranstaltungen bis hin zu Sportveranstaltungen – unsere Drohnen werden von zertifizierten Fachleuten gesteuert, die darauf spezialisiert sind, einzigartige, atemberaubende Perspektiven einzufangen, die die traditionelle Fotografie einfach nicht erreichen kann.",
+        "features": {
+            "feature1": {
+                "title": "Grundabdeckung",
+                "description": "Erhalten Sie Rohvideomaterial Ihres gesamten Events. Ideal für diejenigen, die eine einfache, uneditierte Aufzeichnung bevorzugen."
+            },
+            "feature2": {
+                "title": "Standardpaket",
+                "description": "Genießen Sie ein professionell bearbeitetes 5- bis 10-minütiges Highlight-Video zusammen mit allen Rohaufnahmen, perfekt, um die besten Momente Ihres Events zu teilen."
+            },
+            "feature3": {
+                "title": "Premium-Paket",
+                "description": "Erhalten Sie eine umfassende 10- bis 20-minütige Videobearbeitung, 30-50 hochauflösende Bilder, individuelle Musik und eine Überarbeitungssitzung, die jeden Aspekt Ihres Events in atemberaubender Detailtreue einfängt."
+            }
+        }
+    },
+    "services2": {
+        "title": "Immobilienfotografie",
+        "description": "Heben Sie Ihre Immobilien mit atemberaubender Luftbildfotografie ab. Unsere zertifizierten Drohnenpiloten sind darauf spezialisiert, die Schönheit und Einzigartigkeit jeder Immobilie einzufangen und potenziellen Käufern eine dynamische und ansprechende Präsentation zu bieten, die das Interesse und Engagement steigert.",
+        "features": {
+            "feature1": {
+                "title": "Einfacher Überflug",
+                "description": "5-10 Luftaufnahmen und Rohvideomaterial der Immobilie, perfekt für schnelle und effiziente Immobilienpräsentationen."
+            },
+            "feature2": {
+                "title": "Standardpaket",
+                "description": "Erhalten Sie 20-30 atemberaubende Luftaufnahmen, eine 3-5 minütige kinematografische Videotour, erweiterte Bearbeitungsfunktionen, Dämmerungsaufnahmen und 3D-Mapping, die einen umfassenden Überblick über Ihre Immobilie bieten."
+            },
+            "feature3": {
+                "title": "Premium-Paket",
+                "description": "Erhalten Sie 20-30 atemberaubende Luftaufnahmen, eine 3-5 minütige kinematografische Videotour, erweiterte Bearbeitungsfunktionen, Dämmerungsaufnahmen und 3D-Mapping, die einen umfassenden Überblick über Ihre Immobilie bieten."
+            }
+        }
+    },
+    "customService": {
+        "title": "Individuelle Lösungen für Ihre einzigartigen Bedürfnisse",
+        "description": "Wir wissen, dass jedes Projekt einzigartig ist. Deshalb sind wir mehr als bereit, unsere Drohnendienste an Ihre spezifischen Bedürfnisse anzupassen. Nehmen Sie Kontakt auf, um Ihr Projekt zu besprechen, und arbeiten wir zusammen, um eine maßgeschneiderte Lösung zu erstellen, die Ihren Anforderungen und Ihrem Budget entspricht.",
+        "loading": "Lädt...",
+        "videoAlt": "Rechnung",
+        "videoNotSupported": "Ihr Browser unterstützt das Video-Tag nicht."
+    },
+    "about": {
+        "title": "Über uns",
+        "description": "Wir sind ein junges und dynamisches Team aus Luxemburg. Wir lieben, was wir tun, und reisen gerne, um unsere Drohnendienste anzubieten. Wo auch immer Sie sind, wir sind hier, um großartige Visuals für Sie einzufangen."
+    },
+    "cta": {
+        "title": "Kontaktieren Sie uns!",
+        "description": "Erfahren Sie, wie unsere Drohnendienste Ihr Projekt mit atemberaubenden Luftaufnahmen verbessern können."
+    },
+    "footer": {
+        "logoAlt": "SwiftDrones",
+        "tagline": "Erheben Sie Ihre Perspektive mit Drohnenbildern",
+        "copyRight": "Urheberrecht © 2024 SwiftDrones. Alle Rechte vorbehalten."
+    },
+    "buttons": {
+        "getStarted": "Jetzt starten",
+        "customRequest": "Individuelle Anfrage"
+    },
+    "nav": {
+        "links": {
+            "services": {
+                "id": "services",
+                "title": "Dienstleistungen"
+            },
+            "about": {
+                "id": "about",
+                "title": "Über uns"
+            }
+        }
+    }
+}

@@ -1,15 +1,31 @@
 import { useState } from "react";
-
+import { useTranslation } from 'react-i18next';
 import { close, logo, menu } from "../assets";
-import { navLinks } from "../constants";
+import { scrollToHome } from "./scrollToHome";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
+  const { t } = useTranslation();
+  
+  const navLinks = [
+    { id: t('nav.links.services.id'), title: t('nav.links.services.title') },
+    { id: t('nav.links.about.id'), title: t('nav.links.about.title') }
+  ];
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+  <img
+      src={logo}
+      alt="swiftDrones"
+      className="w-[124px] h-[32px] cursor-pointer"
+      onClick={() => {
+        console.log('Logo clicked');
+        setActive("home");
+        scrollToHome();
+      }}
+    />
+
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -34,9 +50,7 @@ const Navbar = () => {
         />
 
         <div
-          className={`${
-            !toggle ? "hidden" : "flex"
-          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+          className={`${!toggle ? "hidden" : "flex"} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
         >
           <ul className="list-none flex justify-end items-start flex-1 flex-col">
             {navLinks.map((nav, index) => (
