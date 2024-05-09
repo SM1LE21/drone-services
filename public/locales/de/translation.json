@@ -1,13 +1,13 @@
 {
     "hero": {
-        "elevate": "Erheben Sie Ihre",
-        "perspective": "Perspektive",
-        "drone": "mit Drohnenbildern",
+        "elevate": "Entdecken Sie neue",
+        "perspective": "Perspektiven",
+        "drone": "Mit Drohnenbildern",
         "discount": "20%",
-        "discount_tagline": "Rabatt für 1 Monatskonto",
-        "hero_subtitle": "mit Drohnenbildern",
-        "hero_description": "Mit Leidenschaft im Kern liefern unsere anpassbaren Drohnendienste mit Sitz in Luxemburg saubere, überzeugende visuelle Inhalte, bereit, die einzigartigen Anforderungen von Kunden sowohl lokal als auch darüber hinaus zu erfüllen.",
-        "get_started": "Jetzt starten"
+        "discount_tagline": "Rabatt für 1 Monat Konto",
+        "hero_subtitle": "durch beeindruckende Drohnenbilder",
+        "hero_description": "Präzise Drohnenaufnahmen aus Luxemburg, perfekt abgestimmt auf Ihre Bedürfnisse. Buchen Sie jetzt Ihren professionellen Drohnenpiloten.",
+        "get_started": "Loslegen"
     },
     "constants": {
         "home": "Startseite",
@@ -16,75 +16,127 @@
         "contact": "Kontakt"
     },
     "services1": {
-        "title": "Eventfotografie",
-        "description": "Steigern Sie das Erlebnis Ihrer Teilnehmer und die Erinnerung an Ihr Event mit unserer erstklassigen Drohnenabdeckung. Spezialisiert auf Luftaufnahmen für jede Gelegenheit – von Hochzeiten über Firmenveranstaltungen bis hin zu Sportveranstaltungen – unsere Drohnen werden von zertifizierten Fachleuten gesteuert, die darauf spezialisiert sind, einzigartige, atemberaubende Perspektiven einzufangen, die die traditionelle Fotografie einfach nicht erreichen kann.",
+        "title": "Veranstaltungsfotografie",
+        "description": "Heben Sie das Erlebnis Ihrer Teilnehmer und die Erinnerung an Ihre Veranstaltung mit unserer Elite-Drohnenabdeckung hervor. Spezialisiert auf Luftbildfotografie für jeden Anlass – von Hochzeiten über Firmenveranstaltungen bis hin zu Sportveranstaltungen – werden unsere Drohnen von zertifizierten Fachleuten gesteuert, die geschickt einzigartige, atemberaubende Perspektiven einfangen, die die traditionelle Fotografie einfach nicht erreichen kann.",
         "features": {
             "feature1": {
                 "title": "Grundabdeckung",
-                "description": "Erhalten Sie Rohvideomaterial Ihres gesamten Events. Ideal für diejenigen, die eine einfache, uneditierte Aufzeichnung bevorzugen."
+                "description": "Erhalten Sie Rohvideomaterial Ihres gesamten Ereignisses. Ideal für diejenigen, die eine einfache, unbearbeitete Aufzeichnung bevorzugen."
             },
             "feature2": {
                 "title": "Standardpaket",
-                "description": "Genießen Sie ein professionell bearbeitetes 5- bis 10-minütiges Highlight-Video zusammen mit allen Rohaufnahmen, perfekt, um die besten Momente Ihres Events zu teilen."
+                "description": "Genießen Sie ein professionell bearbeitetes 5-10 Minuten Highlight-Video zusammen mit allen Rohaufnahmen, perfekt um die besten Momente Ihrer Veranstaltung zu teilen."
             },
             "feature3": {
                 "title": "Premium-Paket",
-                "description": "Erhalten Sie eine umfassende 10- bis 20-minütige Videobearbeitung, 30-50 hochauflösende Bilder, individuelle Musik und eine Überarbeitungssitzung, die jeden Aspekt Ihres Events in atemberaubender Detailtreue einfängt."
+                "description": "Erhalten Sie eine umfassende 10-20 Minuten Video-Bearbeitung, 30-50 hochauflösende Bilder, individuelle Musik und eine Überarbeitungssitzung, die jeden Aspekt Ihrer Veranstaltung in atemberaubenden Details einfängt."
             }
         }
     },
     "services2": {
         "title": "Immobilienfotografie",
-        "description": "Heben Sie Ihre Immobilien mit atemberaubender Luftbildfotografie ab. Unsere zertifizierten Drohnenpiloten sind darauf spezialisiert, die Schönheit und Einzigartigkeit jeder Immobilie einzufangen und potenziellen Käufern eine dynamische und ansprechende Präsentation zu bieten, die das Interesse und Engagement steigert.",
+        "description": "Heben Sie Ihre Immobilien mit atemberaubenden Luftbildern hervor. Unsere zertifizierten Drohnenpiloten sind darauf spezialisiert, die Schönheit und Einzigartigkeit jeder Immobilie einzufangen und potenziellen Käufern eine dynamische und attraktive Präsentation zu bieten, die das Interesse und Engagement erhöht.",
         "features": {
             "feature1": {
                 "title": "Einfacher Überflug",
-                "description": "5-10 Luftaufnahmen und Rohvideomaterial der Immobilie, perfekt für schnelle und effiziente Immobilienpräsentationen."
+                "description": "5-10 Luftbilder und Rohvideomaterial der Immobilie, perfekt für schnelle und effiziente Immobilienpräsentationen."
             },
             "feature2": {
                 "title": "Standardpaket",
-                "description": "Erhalten Sie 20-30 atemberaubende Luftaufnahmen, eine 3-5 minütige kinematografische Videotour, erweiterte Bearbeitungsfunktionen, Dämmerungsaufnahmen und 3D-Mapping, die einen umfassenden Überblick über Ihre Immobilie bieten."
+                "description": "Erhalten Sie 20-30 atemberaubende Luftbilder, eine 3-5 Minuten lange kinematografische Videotour, fortgeschrittene Bearbeitungsfunktionen, Dämmerungsaufnahmen und 3D-Mapping, die einen umfassenden Blick auf Ihre Immobilie bieten."
             },
             "feature3": {
                 "title": "Premium-Paket",
-                "description": "Erhalten Sie 20-30 atemberaubende Luftaufnahmen, eine 3-5 minütige kinematografische Videotour, erweiterte Bearbeitungsfunktionen, Dämmerungsaufnahmen und 3D-Mapping, die einen umfassenden Überblick über Ihre Immobilie bieten."
+                "description": "Erhalten Sie 20-30 atemberaubende Luftbilder, eine 3-5 Minuten lange kinematografische Videotour, fortgeschrittene Bearbeitungsfunktionen, Dämmerungsaufnahmen und 3D-Mapping, die einen umfassenden Blick auf Ihre Immobilie bieten."
             }
         }
     },
     "customService": {
         "title": "Individuelle Lösungen für Ihre einzigartigen Bedürfnisse",
-        "description": "Wir wissen, dass jedes Projekt einzigartig ist. Deshalb sind wir mehr als bereit, unsere Drohnendienste an Ihre spezifischen Bedürfnisse anzupassen. Nehmen Sie Kontakt auf, um Ihr Projekt zu besprechen, und arbeiten wir zusammen, um eine maßgeschneiderte Lösung zu erstellen, die Ihren Anforderungen und Ihrem Budget entspricht.",
-        "loading": "Lädt...",
-        "videoAlt": "Rechnung",
+        "description": "Wir wissen, dass jedes Projekt einzigartig ist. Deshalb passen wir unsere Drohnendienste gerne an Ihre spezifischen Bedürfnisse an. Nehmen Sie Kontakt auf, um Ihr Projekt zu besprechen, und arbeiten wir zusammen, um eine individuelle Lösung zu erstellen, die Ihren Anforderungen und Ihrem Budget entspricht.",
+        "loading": "Laden...",
+        "videoAlt": "Abrechnung",
         "videoNotSupported": "Ihr Browser unterstützt das Video-Tag nicht."
     },
     "about": {
-        "title": "Über uns",
-        "description": "Wir sind ein junges und dynamisches Team aus Luxemburg. Wir lieben, was wir tun, und reisen gerne, um unsere Drohnendienste anzubieten. Wo auch immer Sie sind, wir sind hier, um großartige Visuals für Sie einzufangen."
-    },
+        "title": "Über Uns",
+        "description": "Wir sind ein junges und dynamisches Team aus Luxemburg. Wir lieben, was wir tun, und reisen gerne, um unsere Drohnendienste anzubieten. Wo auch immer Sie sind, wir sind hier, um hervorragende Visualisierungen für Sie zu erfassen.",
+        "team": [
+            {
+                "id": "about-1",
+                "content": "Lernen Sie Darren kennen, den vielseitigen Maestro hinter der Linse. Als unser Videoeditor, Fotograf und Drohnenpilot ist Darren stets auf der Suche nach dem perfekten Bild und verbindet Kunst und Technologie nahtlos.",
+                "name": "Delgado Darren",
+                "title": "Drohnenpilot, Fotograf"
+            },
+            {
+                "id": "about-2",
+                "content": "Sagen Sie Hallo zu Ben, mit einem Lächeln, das niemals vergeht, ist Ben darauf spezialisiert, nicht nur die Aufnahmen zu machen, die unsere Kunden sich vorstellen, sondern auch deren Erwartungen bei jedem Flug zu übertreffen.",
+                "name": "Thillen Ben",
+                "title": "Drohnenpilot, Veranstaltungsspezialist"
+            },
+            {
+                "id": "about-3",
+                "content": "Lernen Sie Tun kennen, den Meister der Präzision in unserem Team. Als Drohnenpilot und unser Betriebsleiter überwacht er jedes technische Detail und stellt sicher, dass unsere Projekte fehlerfrei und effizient durchgeführt werden.",
+                "name": "Keltesch Tun",
+                "title": "Drohnenpilot, Betriebsleiter"
+            }
+        ]
+    },    
     "cta": {
         "title": "Kontaktieren Sie uns!",
-        "description": "Erfahren Sie, wie unsere Drohnendienste Ihr Projekt mit atemberaubenden Luftaufnahmen verbessern können."
+        "description": "Erfahren Sie, wie unsere Drohnendienste Ihr Projekt mit atemberaubenden Luftbildern verbessern können."
     },
     "footer": {
         "logoAlt": "SwiftDrones",
         "tagline": "Erheben Sie Ihre Perspektive mit Drohnenbildern",
-        "copyRight": "Urheberrecht © 2024 SwiftDrones. Alle Rechte vorbehalten."
+        "copyRight": "Urheberrecht Ⓒ 2024 SwiftDrones. Alle Rechte vorbehalten."
     },
     "buttons": {
-        "getStarted": "Jetzt starten",
+        "getStarted": "Loslegen",
         "customRequest": "Individuelle Anfrage"
     },
     "nav": {
         "links": {
             "services": {
-                "id": "services",
+                "id": "dienstleistungen",
                 "title": "Dienstleistungen"
             },
             "about": {
-                "id": "about",
+                "id": "ueber-uns",
                 "title": "Über uns"
             }
         }
-    }
+    },
+    "getStarted": {
+        "firstLine": "Legen",
+        "secondLine": "Sie Los",
+        "arrowAlt": "Pfeil-nach-oben"
+    },
+    "formModal": {
+        "customRequest": "Individuelle Anfrage",
+        "eventPhotography": "Eventfotografie",
+        "realEstatePhotography": "Immobilienfotografie",
+        "defaultForm": "Formular",
+        "submitAlert": "Formular eingereicht! Wir werden uns bald bei Ihnen melden.",
+        "firstNameLabel": "Vorname:",
+        "familyNameLabel": "Familienname:",
+        "emailLabel": "E-Mail-Adresse:",
+        "phoneLabel": "Telefonnummer (Optional):",
+        "shootDateTimeLabel": "Gewünschtes Datum und Uhrzeit des Shootings (Optional):",
+        "pitchProject": "Stellen Sie hier Ihre Vision vor, und wir werden uns mit Ihnen in Verbindung setzen, um sie im Detail zu besprechen.",
+        "projectDetailsLabel": "Projektdetails:",
+        "projectDetailsPlaceholder": "Beginnen Sie hier mit der Beschreibung Ihres Projekts...",
+        "choosePackageLabel": "Wählen Sie ein Paket:",
+        "additionalInfoLabel": "Zusätzliche Informationen (Optional):",
+        "additionalInfoPlaceholder": "Fügen Sie hier zusätzliche Details oder Anfragen hinzu...",
+        "responseTimeInfo": "Wir antworten in der Regel innerhalb von 24 Stunden auf Anfragen.",
+        "submitButtonText": "Einreichen",
+        "closeButtonText": "Schließen",
+        "basicCoverageOption": "Grundabdeckung - €299",
+        "standardPackageOption": "Standardpaket - €595",
+        "premiumPackageOption": "Premium-Paket - €895",
+        "basicFlyoverOption": "Einfacher Überflug - €249",
+        "standardPackageRealEstateOption": "Standardpaket - €495",
+        "premiumPackageRealEstateOption": "Premium-Paket - €795"
+      }            
 }

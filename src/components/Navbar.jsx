@@ -6,39 +6,51 @@ import { scrollToHome } from "./scrollToHome";
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation(); // Get the i18n instance to change the language
   
   const navLinks = [
     { id: t('nav.links.services.id'), title: t('nav.links.services.title') },
     { id: t('nav.links.about.id'), title: t('nav.links.about.title') }
   ];
 
+  // Function to change the language
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
+
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-  <img
-      src={logo}
-      alt="swiftDrones"
-      className="w-[124px] h-[32px] cursor-pointer"
-      onClick={() => {
-        console.log('Logo clicked');
-        setActive("home");
-        scrollToHome();
-      }}
-    />
-
+      <img
+        src={logo}
+        alt="swiftDrones"
+        className="w-[124px] h-[32px] cursor-pointer"
+        onClick={() => {
+          console.log('Logo clicked');
+          setActive("Home");
+          scrollToHome();
+        }}
+      />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${
+            className={`font-poppins font-normal cursor-pointer text-[16px] mr-10 ${
               active === nav.title ? "text-white" : "text-dimWhite"
-            } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
+            }`}
             onClick={() => setActive(nav.title)}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
+        {/* Language Selector */}
+        <li className="font-poppins font-normal cursor-pointer text-[16px]">
+          <select onChange={(e) => changeLanguage(e.target.value)} className="text-white bg-transparent cursor-pointer">
+            <option value="en">EN</option>
+            <option value="de">DE</option>
+            <option value="fr">FR</option>
+          </select>
+        </li>
       </ul>
 
       <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -64,6 +76,14 @@ const Navbar = () => {
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
             ))}
+            {/* Language Selector for Mobile */}
+            <li className="font-poppins font-medium cursor-pointer text-[16px]">
+              <select onChange={(e) => changeLanguage(e.target.value)} className="text-white bg-transparent cursor-pointer">
+                <option value="en">EN</option>
+                <option value="de">DE</option>
+                <option value="fr">FR</option>
+              </select>
+            </li>
           </ul>
         </div>
       </div>
