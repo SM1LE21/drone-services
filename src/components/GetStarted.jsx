@@ -13,13 +13,13 @@ const GetStarted = () => {
       <div className={`${styles.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-full`} onClick={() => setShowForm(true)}>
         <div className={`${styles.flexStart} flex-row`}>
           <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
-            <span className="text-gradient">{t('getStarted.firstLine')}</span> {/* Use t function */}
+            <span className="text-gradient">{t('getStarted.firstLine')}</span> 
           </p>
-          <img src={arrowUp} alt={t('getStarted.arrowAlt')} className="w-[23px] h-[23px] object-contain" /> {/* Use t function */}
+          <img src={arrowUp} alt={t('getStarted.arrowAlt')} className="w-[23px] h-[23px] object-contain" /> 
         </div>
         
         <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
-          <span className="text-gradient">{t('getStarted.secondLine')}</span> {/* Use t function */}
+          <span className="text-gradient">{t('getStarted.secondLine')}</span>
         </p>
       </div>
       {showForm && <FormModal onClose={() => setShowForm(false)} formType="custom" />}
