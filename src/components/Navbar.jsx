@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useTranslation } from 'react-i18next';
 import { close, logo, menu } from "../assets";
 import { scrollToHome } from "./scrollToHome";
@@ -7,7 +7,23 @@ const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
   const { t, i18n } = useTranslation(); // Get the i18n instance to change the language
-  
+
+  // State to track the current language
+  const [currentLanguage, setCurrentLanguage] = useState(i18n.language);
+
+  useEffect(() => {
+    // Update the state when the language changes
+    const handleLanguageChange = (lng) => {
+      setCurrentLanguage(lng);
+    };
+
+    i18n.on('languageChanged', handleLanguageChange);
+
+    return () => {
+      i18n.off('languageChanged', handleLanguageChange);
+    };
+  }, [i18n]);
+
   const navLinks = [
     { id: t('nav.links.services.id'), title: t('nav.links.services.title') },
     { id: t('nav.links.about.id'), title: t('nav.links.about.title') }
@@ -45,7 +61,11 @@ const Navbar = () => {
         ))}
         {/* Language Selector */}
         <li className="font-poppins font-normal cursor-pointer text-[16px]">
-          <select onChange={(e) => changeLanguage(e.target.value)} className="text-white bg-transparent cursor-pointer">
+          <select
+            value={currentLanguage}
+            onChange={(e) => changeLanguage(e.target.value)}
+            className="text-white bg-transparent cursor-pointer"
+          >
             <option value="en">EN</option>
             <option value="de">DE</option>
             <option value="fr">FR</option>
@@ -78,7 +98,11 @@ const Navbar = () => {
             ))}
             {/* Language Selector for Mobile */}
             <li className="font-poppins font-medium cursor-pointer text-[16px]">
-              <select onChange={(e) => changeLanguage(e.target.value)} className="text-white bg-transparent cursor-pointer">
+              <select
+                value={currentLanguage}
+                onChange={(e) => changeLanguage(e.target.value)}
+                className="text-white bg-transparent cursor-pointer"
+              >
                 <option value="en">EN</option>
                 <option value="de">DE</option>
                 <option value="fr">FR</option>
