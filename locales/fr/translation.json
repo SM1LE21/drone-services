@@ -58,9 +58,15 @@
         "videoAlt": "Facturation",
         "videoNotSupported": "Votre navigateur ne prend pas en charge la balise vidéo."
     },
+    "regulations": {
+        "title": "Réglementation des drones au Luxembourg",
+        "description": "L'exploitation de drones au Luxembourg nécessite le respect de réglementations spécifiques pour garantir la sécurité et la conformité. Restez informé et assurez-vous que vos activités de drones sont conformes aux directives légales. En savoir plus sur la réglementation des drones au Luxembourg sur le ",
+        "linkText": "site officiel de la Direction de l'Aviation Civile"
+    },
     "about": {
         "title": "À Propos de Nous",
-        "description": "Nous sommes une équipe jeune et dynamique du Luxembourg. Nous aimons ce que nous faisons et sommes heureux de voyager pour fournir nos services de drone. Où que vous soyez, nous sommes ici pour capturer d'excellentes visuels pour vous.",
+        "description": "Nous sommes une équipe jeune et dynamique du Luxembourg. Nous aimons ce que nous faisons et sommes heureux de voyager pour fournir nos services de drone. Où que vous soyez, nous sommes ici pour capturer d'excellentes visuels pour vous. Découvrez-en plus sur ",
+        "services": "nos services",
         "team": [
             {
                 "id": "about-1",
@@ -138,5 +144,5 @@
         "basicFlyoverOption": "Survol de Base - 249€",
         "standardPackageRealEstateOption": "Forfait Standard - 495€",
         "premiumPackageRealEstateOption": "Forfait Premium - 795€"
-      }  
+    }
 }
