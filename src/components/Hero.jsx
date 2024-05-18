@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import FormModal from "./FormModal";
 
 const Hero = () => {
-  const { t } = useTranslation(); 
+  const { t } = useTranslation();
   return (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
@@ -29,15 +29,15 @@ const Hero = () => {
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-        {t('hero.hero_subtitle')}
+          {t('hero.hero_subtitle')}
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        {t('hero.hero_description')}
+          {t('hero.hero_description')}
         </p>
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={drone} alt="drone" className="w-[100%] h-[100%] relative z-[5]" />
+        <img src={drone} alt="Drone providing aerial photography services" className="w-[100%] h-[100%] relative z-[5]" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />

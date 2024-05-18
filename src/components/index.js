@@ -12,6 +12,7 @@ import Hero from "./Hero";
 import About from "./About";
 import AboutCard from "./AboutCard";
 import FormModal from "./FormModal";
+import DroneRegulations from "./DroneRegulations";
 
 export {
   Navbar,
@@ -27,5 +28,6 @@ export {
   Hero,
   About,
   AboutCard,
-  FormModal
+  FormModal,
+  DroneRegulations
 };
