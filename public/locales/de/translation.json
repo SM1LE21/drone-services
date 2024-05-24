@@ -58,9 +58,15 @@
         "videoAlt": "Abrechnung",
         "videoNotSupported": "Ihr Browser unterstützt das Video-Tag nicht."
     },
+    "regulations": {
+        "title": "Drohnenvorschriften in Luxemburg",
+        "description": "Der Betrieb von Drohnen in Luxemburg erfordert die Einhaltung spezifischer Vorschriften, um Sicherheit und Compliance zu gewährleisten. Bleiben Sie informiert und stellen Sie sicher, dass Ihre Drohnenaktivitäten den gesetzlichen Richtlinien entsprechen. Erfahren Sie mehr über die Drohnenvorschriften in Luxemburg auf der ",
+        "linkText": "offiziellen Website der Direktion für Zivilluftfahrt"
+    },
     "about": {
         "title": "Über Uns",
-        "description": "Wir sind ein junges und dynamisches Team aus Luxemburg. Wir lieben, was wir tun, und reisen gerne, um unsere Drohnendienste anzubieten. Wo auch immer Sie sind, wir sind hier, um hervorragende Visualisierungen für Sie zu erfassen.",
+        "description": "Wir sind ein junges und dynamisches Team aus Luxemburg. Wir lieben, was wir tun, und reisen gerne, um unsere Drohnendienste anzubieten. Wo auch immer Sie sind, wir sind hier, um hervorragende Visualisierungen für Sie zu erfassen. Erfahre mehr über unsere ",
+        "services": "unsere Dienstleistungen",
         "team": [
             {
                 "id": "about-1",
@@ -81,7 +87,7 @@
                 "title": "Drohnenpilot, Betriebsleiter"
             }
         ]
-    },    
+    },
     "cta": {
         "title": "Kontaktieren Sie uns!",
         "description": "Erfahren Sie, wie unsere Drohnendienste Ihr Projekt mit atemberaubenden Luftbildern verbessern können."
@@ -138,5 +144,5 @@
         "basicFlyoverOption": "Einfacher Überflug - €249",
         "standardPackageRealEstateOption": "Standardpaket - €495",
         "premiumPackageRealEstateOption": "Premium-Paket - €795"
-      }            
+    }
 }

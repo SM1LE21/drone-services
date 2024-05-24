@@ -58,9 +58,15 @@
         "videoAlt": "Billing",
         "videoNotSupported": "Your browser does not support the video tag."
     },
+    "regulations": {
+        "title": "Drone Regulations in Luxembourg",
+        "description": "Operating drones in Luxembourg requires adherence to specific regulations to ensure safety and compliance. Stay informed and ensure your drone activities are within legal guidelines. Learn more about drone regulations in Luxembourg on the ",
+        "linkText": "official website of the Directorate of Civil Aviation"
+    },
     "about": {
         "title": "About Us",
-        "description": "We're a young and energetic team from Luxembourg. We love what we do and are happy to travel to provide our drone services. Wherever you are, we're here to help capture great visuals for you.",
+        "description": "We're a young and energetic team from Luxembourg. We love what we do and are happy to travel to provide our drone services. Wherever you are, we're here to help capture great visuals for you. Learn more on our ",
+        "services": "drone services",
         "team": [
             {
                 "id": "about-1",
@@ -81,7 +87,7 @@
                 "title": "Drone Pilot, Operations Manager"
             }
         ]
-    },    
+    },
     "cta": {
         "title": "Contact Us!",
         "description": "Learn how our drone services can enhance your project with stunning aerial visuals."
@@ -138,5 +144,5 @@
         "basicFlyoverOption": "Basic Flyover - €249",
         "standardPackageRealEstateOption": "Standard Package - €495",
         "premiumPackageRealEstateOption": "Premium Package - €795"
-      }            
+    }
 }

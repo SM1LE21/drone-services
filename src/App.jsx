@@ -1,5 +1,5 @@
 import styles from "./style";
-import { CustomService, Services1, Services2, About, Clients, CTA, Footer, Navbar, Hero } from "./components";
+import { CustomService, Services1, Services2, About, Clients, CTA, Footer, Navbar, Hero, DroneRegulations } from "./components";
 import './i18n';
 
 const App = () => (
@@ -15,7 +15,7 @@ const App = () => (
         <Hero />
       </div>
     </div>
-    
+
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         {/*<Stats />   Used to display stats below the hero section*/}
@@ -24,6 +24,7 @@ const App = () => (
         </div>
         <CustomService />
         <Services2 />
+        <DroneRegulations />
         <About />
         <CTA />
         <Footer />
