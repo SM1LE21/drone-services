@@ -49,7 +49,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <nav className="w-full flex py-6 justify-between items-center navbar relative z-50">
       <img
         src={logo}
         alt="swiftDrones"
@@ -103,7 +103,7 @@ const Navbar = () => {
         />
 
         <div
-          className={`${!toggle ? "hidden" : "flex"} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+          className={`${!toggle ? "hidden" : "flex"} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar z-50`}
         >
           <ul className="list-none flex justify-end items-start flex-1 flex-col">
             {navLinks.map((nav, index) => (
@@ -125,7 +125,7 @@ const Navbar = () => {
               </li>
             ))}
             {/* Language Selector for Mobile */}
-            <li className="font-poppins font-medium cursor-pointer text-[16px]">
+            <li className="font-poppins font-medium cursor-pointer text-[16px] mt-4">
               <select
                 value={currentLanguage}
                 onChange={(e) => changeLanguage(e.target.value)}
