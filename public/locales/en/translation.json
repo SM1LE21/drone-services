@@ -144,5 +144,18 @@
         "basicFlyoverOption": "Basic Flyover - €249",
         "standardPackageRealEstateOption": "Standard Package - €495",
         "premiumPackageRealEstateOption": "Premium Package - €795"
+    },
+    "faq": {
+        "title": "Frequently Asked Questions (FAQ)",
+        "questions": [
+            {
+                "question": "What services does Swift Drones offer?",
+                "answer": "Swift Drones provides a wide range of drone services including aerial photography, videography, surveying, mapping, inspection, and agricultural monitoring."
+            },
+            {
+                "question": "How can I book a drone service?",
+                "answer": "You can book a service through our website by navigating to the 'Services' page and selecting the service you need."
+            }
+        ]
     }
 }

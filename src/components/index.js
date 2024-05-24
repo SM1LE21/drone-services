@@ -13,6 +13,7 @@ import About from "./About";
 import AboutCard from "./AboutCard";
 import FormModal from "./FormModal";
 import DroneRegulations from "./DroneRegulations";
+import FAQ from "./FAQ";
 
 export {
   Navbar,
@@ -29,5 +30,6 @@ export {
   About,
   AboutCard,
   FormModal,
-  DroneRegulations
+  DroneRegulations,
+  FAQ
 };

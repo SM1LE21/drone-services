@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { close, logo, menu } from "../assets";
 import { scrollToHome } from "./scrollToHome";
@@ -6,7 +7,8 @@ import { scrollToHome } from "./scrollToHome";
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
-  const { t, i18n } = useTranslation(); // Get the i18n instance to change the language
+  const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
 
   // State to track the current language
   const [currentLanguage, setCurrentLanguage] = useState(i18n.language);
@@ -25,13 +27,25 @@ const Navbar = () => {
   }, [i18n]);
 
   const navLinks = [
-    { id: t('nav.links.services.id'), title: t('nav.links.services.title') },
-    { id: t('nav.links.about.id'), title: t('nav.links.about.title') }
+    { id: t('nav.links.services.id'), title: t('nav.links.services.title'), path: '#services' },
+    { id: t('nav.links.about.id'), title: t('nav.links.about.title'), path: '#about' },
+    { id: 'faq', title: 'FAQ', path: '/faq' }
   ];
 
   // Function to change the language
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
+  };
+
+  // Function to handle navigation for hash links
+  const handleNavClick = (path) => {
+    if (path.startsWith('#')) {
+      if (window.location.pathname !== '/') {
+        navigate('/', { state: { scrollTo: path.slice(1) } });
+      } else {
+        document.getElementById(path.slice(1)).scrollIntoView({ behavior: 'smooth' });
+      }
+    }
   };
 
   return (
@@ -42,7 +56,7 @@ const Navbar = () => {
         className="w-[124px] h-[32px] cursor-pointer"
         onClick={() => {
           console.log('Logo clicked');
-          setActive("Home");
+          handleNavClick("#home");
           scrollToHome();
         }}
       />
@@ -54,9 +68,16 @@ const Navbar = () => {
             className={`font-poppins font-normal cursor-pointer text-[16px] mr-10 ${
               active === nav.title ? "text-white" : "text-dimWhite"
             }`}
-            onClick={() => setActive(nav.title)}
+            onClick={() => {
+              setActive(nav.title);
+              handleNavClick(nav.path);
+            }}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            {nav.path.startsWith('#') ? (
+              <a href={nav.path}>{nav.title}</a>
+            ) : (
+              <Link to={nav.path}>{nav.title}</Link>
+            )}
           </li>
         ))}
         {/* Language Selector */}
@@ -91,9 +112,16 @@ const Navbar = () => {
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
                   active === nav.title ? "text-white" : "text-dimWhite"
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
-                onClick={() => setActive(nav.title)}
+                onClick={() => {
+                  setActive(nav.title);
+                  handleNavClick(nav.path);
+                }}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                {nav.path.startsWith('#') ? (
+                  <a href={nav.path}>{nav.title}</a>
+                ) : (
+                  <Link to={nav.path}>{nav.title}</Link>
+                )}
               </li>
             ))}
             {/* Language Selector for Mobile */}
