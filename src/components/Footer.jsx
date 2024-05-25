@@ -66,7 +66,13 @@ const Footer = () => {
         </p>
 
       <div className="flex flex-row md:mt-0 mt-6">
-      <span className={`object-contain cursor-pointer mr-6 text-white`}> swiftdrones.contact@gmail.com </span>
+      <span
+        className="object-contain cursor-pointer mr-6 text-white"
+        onClick={() => window.location.href = 'mailto:swiftdrones.contact@gmail.com'}
+      >
+        swiftdrones.contact@gmail.com
+      </span>
+
         {socialMedia.map((social, index) => (
           <img
             key={social.id}
