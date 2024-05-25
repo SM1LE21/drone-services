@@ -5,33 +5,15 @@ import { CustomRequestButton } from "./Button";
 import { useTranslation } from 'react-i18next';
 
 const CustomService = () => {
-  const [videoLoaded, setVideoLoaded] = useState(false);
   const { t } = useTranslation();
-
-  useEffect(() => {
-    const video = document.createElement('video');
-    video.src = vid;
-    video.onloadeddata = () => {
-      setVideoLoaded(true);
-    };
-    return () => {
-      video.onloadeddata = null;
-    };
-  }, []);
-
+  
   return (
     <section id="" className={layout.sectionReverse}>
       <div className={layout.sectionImgReverse}>
-        {videoLoaded ? (
-          <video src={vid} alt={t('customService.videoAlt')} className="w-[100%] h-[100%] relative z-[5]" autoPlay loop muted playsInline controls={false}>
-            {t('customService.videoNotSupported')}
-          </video>
-        ) : (
-          <div className="flex justify-center items-center w-[100%] h-[100%]">
-            {t('customService.loading')}
-          </div>
-        )}
 
+        <video src={vid} className="w-[100%] h-[100%] relative" autoPlay loop muted playsInline controls={false}>
+          {t('customService.videoNotSupported')}
+        </video>
         <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
         <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
       </div>
