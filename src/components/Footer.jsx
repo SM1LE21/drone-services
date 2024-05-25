@@ -1,11 +1,23 @@
 import styles from "../style";
 import { logo } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
+import { Link, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { scrollToHome } from "./scrollToHome";
 
 const Footer = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
+
+  const handleNavClick = (path) => {
+    if (path.startsWith('#')) {
+      if (window.location.pathname !== '/') {
+        navigate('/', { state: { scrollTo: path.slice(1) } });
+      } else {
+        document.getElementById(path.slice(1)).scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  };
   return (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
       <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
@@ -16,6 +28,7 @@ const Footer = () => {
             className="w-[266px] h-[72.14px] object-contain cursor-pointer"
             onClick={() => {
               console.log('Logo clicked');
+              handleNavClick("#home")
               scrollToHome();
             }}
           />
@@ -52,7 +65,8 @@ const Footer = () => {
           {t('footer.copyRight')}
         </p>
 
-      {/*<div className="flex flex-row md:mt-0 mt-6">
+      <div className="flex flex-row md:mt-0 mt-6">
+      <span className={`object-contain cursor-pointer mr-6 text-white`}> swiftdrones.contact@gmail.com </span>
         {socialMedia.map((social, index) => (
           <img
             key={social.id}
@@ -64,7 +78,7 @@ const Footer = () => {
             onClick={() => window.open(social.link)}
           />
         ))}
-      </div>*/}
+      </div>
     </div>
   </section>
 )};

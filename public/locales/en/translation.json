@@ -144,5 +144,58 @@
         "basicFlyoverOption": "Basic Flyover - €249",
         "standardPackageRealEstateOption": "Standard Package - €495",
         "premiumPackageRealEstateOption": "Premium Package - €795"
+    },
+    "faq": {
+        "title": "Frequently Asked Questions (FAQ)",
+        "questions": [
+            {
+                "question": "What services does SwiftDrones offer?",
+                "answer": "SwiftDrones offers a wide range of professional drone services, especially throughout Luxembourg, including aerial photography, videography, surveying, mapping, inspection, and agricultural monitoring. Our expert team ensures high-quality results tailored to your needs."
+            },
+            {
+                "question": "Does SwiftDrones focus exclusively on drone imagery, or do you also offer traditional photography services?",
+                "answer": "While SwiftDrones specializes in professional drone services, we also offer traditional photography services. Our skilled photographers can capture ground-based photos to complement our aerial shots, providing a comprehensive visual solution."
+            },
+            {
+                "question": "How can I book a drone service?",
+                "answer": "Booking a drone service with SwiftDrones is easy. Visit our website, navigate to the 'Services' page, and select the drone service you need. You can also contact us directly for more personalized assistance."
+            },
+            {
+                "question": "How can I hire a drone pilot?",
+                "answer": "To hire a professional drone pilot, select a service on our website and fill out the form. We offer custom request options and are available via email at swiftdrones.contact@gmail.com for any inquiries. Our team is dedicated to providing reliable drone services tailored to your specific needs."
+            },
+            {
+                "question": "What are the benefits of using drone photography for events?",
+                "answer": "Drone photography offers unique, dynamic perspectives that traditional photography cannot achieve. It enhances the experience of your attendees and creates memorable, high-quality coverage of your event."
+            },
+            {
+                "question": "What packages do you offer for event photography?",
+                "answer": "We offer three event photography packages: Basic Coverage, Standard Package, and Premium Package. Each package varies in terms of coverage and deliverables, from raw video footage to professionally edited highlight reels and high-resolution images."
+            },
+            {
+                "question": "What does the Basic Flyover package for real estate include?",
+                "answer": "The Basic Flyover package for real estate includes 5-10 aerial photos and raw video footage of the property. This package is perfect for quick and efficient property showcases."
+            },
+            {
+                "question": "What is included in the Standard Package for real estate photography?",
+                "answer": "The Standard Package for real estate photography includes 20-30 stunning aerial photos, a 3-5 minute cinematic video tour, advanced editing features, twilight shots, and 3D mapping. This package provides a comprehensive view of your property."
+            },
+            {
+                "question": "Can you provide custom drone solutions?",
+                "answer": "Yes, SwiftDrones offers custom drone solutions tailored to your unique needs. Contact us to discuss your project, and we will work together to create a solution that suits your requirements and budget."
+            },
+            {
+                "question": "What are the drone regulations in Luxembourg?",
+                "answer": "Operating drones in Luxembourg requires adherence to specific regulations to ensure safety and compliance. We stay informed and ensure that our drone activities are within legal guidelines. For detailed information, visit the official website of the Directorate of Civil Aviation."
+            },
+            {
+                "question": "What are UAV services and how does SwiftDrones provide them?",
+                "answer": "UAV (Unmanned Aerial Vehicle) services encompass a variety of drone operations, including aerial photography, videography, and surveying. SwiftDrones provides these services with a focus on precision, creativity, and compliance with local regulations, ensuring high-quality results for our clients, especially in Luxembourg."
+            },
+            {
+                "question": "How can I contact SwiftDrones?",
+                "answer": "You can contact SwiftDrones via email at swiftdrones.contact@gmail.com or use the contact form on our website. We typically respond to inquiries within 24 hours, ensuring prompt and efficient service."
+            }
+        ]
     }
 }
