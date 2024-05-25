@@ -147,50 +147,54 @@
     },
     "faq": {
         "title": "Häufig gestellte Fragen (FAQ)",
-        "questions": [
+        "fragen": [
             {
-                "question": "Welche Dienstleistungen bietet Swift Drones an?",
-                "answer": "Swift Drones bietet eine breite Palette von Drohnendiensten an, darunter Luftfotografie, Videografie, Vermessung, Kartierung, Inspektion und landwirtschaftliche Überwachung."
+                "frage": "Welche Dienstleistungen bietet SwiftDrones an?",
+                "antwort": "SwiftDrones bietet eine breite Palette von Drohnendienstleistungen, insbesondere in Luxemburg, einschließlich Luftfotografie, Videografie, Vermessung, Kartierung, Inspektion und landwirtschaftlicher Überwachung."
             },
             {
-                "question": "Wie kann ich einen Drohnendienst buchen?",
-                "answer": "Sie können einen Dienst über unsere Website buchen, indem Sie zur Seite 'Dienstleistungen' navigieren und den gewünschten Service auswählen."
+                "frage": "Konzentriert sich SwiftDrones ausschließlich auf Drohnenbilder oder bieten Sie auch traditionelle Fotodienstleistungen an?",
+                "antwort": "Ja, SwiftDrones bietet auch traditionelle Fotodienstleistungen an. Unser Team umfasst qualifizierte Fotografen, die Bodenfotos aufnehmen können, um unsere Luftaufnahmen zu ergänzen."
             },
             {
-                "question": "Wie kann ich einen Drohnenpiloten mieten?",
-                "answer": "Wählen Sie einfach einen Service aus und füllen Sie das Formular aus. Wir bieten auch einen Service für individuelle Anfragen an. Wenn Sie Zweifel haben, können Sie uns auch per E-Mail unter swiftdrones.contact@gmail.com kontaktieren."
+                "frage": "Wie kann ich einen Drohnendienst buchen?",
+                "antwort": "Sie können einen Dienst über unsere Website buchen, indem Sie zur Seite 'Services' navigieren und den benötigten Service auswählen."
             },
             {
-                "question": "Welche Vorteile bietet die Verwendung von Drohnenfotografie für Veranstaltungen?",
-                "answer": "Die Drohnenfotografie bietet einzigartige, atemberaubende Perspektiven, die mit herkömmlicher Fotografie nicht erreicht werden können. Sie erhöht das Erlebnis Ihrer Teilnehmer und die Erinnerung an Ihre Veranstaltung durch exklusive Berichterstattung."
+                "frage": "Wie kann ich einen Drohnenpiloten engagieren?",
+                "antwort": "Wählen Sie einfach einen Service aus und füllen Sie das Formular aus. Wir haben auch einen Service für individuelle Anfragen. Bei Zweifeln können Sie uns auch per E-Mail unter swiftdrones.contact@gmail.com kontaktieren. Das Team ist bereit, professionelle und zuverlässige Drohnendienstleistungen zu Ihren Bedürfnissen anzubieten."
             },
             {
-                "question": "Welche Pakete bieten Sie für die Veranstaltungsfotografie an?",
-                "answer": "Wir bieten drei Pakete an: Grundabdeckung, Standardpaket und Premiumpaket. Jedes Paket variiert in Bezug auf Abdeckung und Lieferumfang, von Rohvideoaufnahmen bis hin zu professionell bearbeiteten Highlight-Videos und hochauflösenden Bildern."
+                "frage": "Welche Vorteile bietet die Drohnenfotografie für Veranstaltungen?",
+                "antwort": "Die Drohnenfotografie bietet einzigartige, dynamische Perspektiven, die mit traditioneller Fotografie nicht erreicht werden können. Sie verbessert das Erlebnis Ihrer Teilnehmer und die Erinnerung an Ihre Veranstaltung durch eine erstklassige Abdeckung."
             },
             {
-                "question": "Was beinhaltet das Basic Flyover-Paket für Immobilien?",
-                "answer": "Das Basic Flyover-Paket umfasst 5-10 Luftfotos und Rohvideoaufnahmen der Immobilie, perfekt für schnelle und effiziente Immobilienpräsentationen."
+                "frage": "Welche Pakete bieten Sie für die Veranstaltungsfotografie an?",
+                "antwort": "Wir bieten drei Pakete an: Basic Coverage, Standard Package und Premium Package. Jedes Paket variiert in Bezug auf Abdeckung und Lieferumfang, von Rohvideomaterial bis hin zu professionell bearbeiteten Highlight-Videos und hochauflösenden Bildern."
             },
             {
-                "question": "Können Sie maßgeschneiderte Drohnenlösungen anbieten?",
-                "answer": "Ja, wir bieten maßgeschneiderte Lösungen, die auf Ihre speziellen Bedürfnisse zugeschnitten sind. Kontaktieren Sie uns, um Ihr Projekt zu besprechen, und lassen Sie uns gemeinsam eine Lösung erstellen, die Ihren Anforderungen und Ihrem Budget entspricht."
+                "frage": "Was beinhaltet das Basic Flyover-Paket für Immobilien?",
+                "antwort": "Das Basic Flyover-Paket beinhaltet 5-10 Luftbilder und Rohvideomaterial der Immobilie, perfekt für schnelle und effiziente Präsentationen von Immobilien."
             },
             {
-                "question": "Welche Drohnenvorschriften gelten in Luxemburg?",
-                "answer": "Der Betrieb von Drohnen in Luxemburg erfordert die Einhaltung spezifischer Vorschriften, um Sicherheit und Compliance zu gewährleisten. Bleiben Sie informiert und stellen Sie sicher, dass Ihre Drohnenaktivitäten den gesetzlichen Richtlinien entsprechen. Erfahren Sie mehr über Drohnenvorschriften auf der offiziellen Website der Direktion für Zivilluftfahrt."
+                "frage": "Können Sie maßgeschneiderte Drohnenlösungen anbieten?",
+                "antwort": "Ja, wir bieten maßgeschneiderte Lösungen an, die auf Ihre einzigartigen Bedürfnisse zugeschnitten sind. Kontaktieren Sie uns, um Ihr Projekt zu besprechen, und lassen Sie uns gemeinsam eine Lösung entwickeln, die Ihren Anforderungen und Ihrem Budget entspricht."
             },
             {
-                "question": "Wer sind die Teammitglieder von Swift Drones?",
-                "answer": "Unser Team besteht aus talentierten Fachleuten wie Darren, unserem Videoeditor und Drohnenpiloten; Ben, unserem fröhlichen Veranstaltungsspezialisten; und Tun, unserem Betriebsleiter, der eine einwandfreie Projektausführung sicherstellt."
+                "frage": "Was sind die Drohnenvorschriften in Luxemburg?",
+                "antwort": "Der Betrieb von Drohnen in Luxemburg erfordert die Einhaltung spezifischer Vorschriften, um Sicherheit und Konformität zu gewährleisten. Bleiben Sie informiert und stellen Sie sicher, dass Ihre Drohnenaktivitäten den gesetzlichen Richtlinien entsprechen. Erfahren Sie mehr über die Drohnenvorschriften auf der offiziellen Website der Direktion der Zivilluftfahrt."
             },
             {
-                "question": "Wie kann ich Swift Drones kontaktieren?",
-                "answer": "Sie können uns per E-Mail unter swiftdrones.contact@gmail.com kontaktieren oder das Kontaktformular auf unserer Website verwenden. Wir antworten in der Regel innerhalb von 24 Stunden auf Anfragen."
+                "frage": "Was sind UAV-Dienstleistungen und wie bietet SwiftDrones diese an?",
+                "antwort": "UAV-Dienstleistungen (Unmanned Aerial Vehicle) umfassen verschiedene Drohnenoperationen, einschließlich Luftfotografie, Videografie und Vermessung. SwiftDrones bietet diese Dienstleistungen mit einem Fokus auf Präzision, Kreativität und Einhaltung der lokalen Vorschriften an, um qualitativ hochwertige Ergebnisse für unsere Kunden, insbesondere in Luxemburg, zu gewährleisten."
             },
             {
-                "question": "Was ist im Standardpaket für Immobilienfotografie enthalten?",
-                "answer": "Das Standardpaket umfasst 20-30 atemberaubende Luftfotos, eine 3-5-minütige filmische Videotour, erweiterte Bearbeitungsfunktionen, Aufnahmen in der Dämmerung und 3D-Kartierung, die einen umfassenden Überblick über Ihre Immobilie bieten."
+                "frage": "Wie kann ich SwiftDrones kontaktieren?",
+                "antwort": "Sie können uns per E-Mail unter swiftdrones.contact@gmail.com kontaktieren oder das Kontaktformular auf unserer Website verwenden. Wir antworten in der Regel innerhalb von 24 Stunden auf Anfragen."
+            },
+            {
+                "frage": "Was beinhaltet das Standard-Paket für die Immobilienfotografie?",
+                "antwort": "Das Standard-Paket umfasst 20-30 atemberaubende Luftbilder, eine 3-5-minütige filmische Videotour, erweiterte Bearbeitungsfunktionen, Dämmerungsaufnahmen und eine 3D-Kartierung, die eine umfassende Ansicht Ihrer Immobilie bietet."
             }
         ]
     }

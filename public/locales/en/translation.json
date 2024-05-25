@@ -149,8 +149,12 @@
         "title": "Frequently Asked Questions (FAQ)",
         "questions": [
             {
-                "question": "What services does Swift Drones offer?",
-                "answer": "Swift Drones provides a wide range of drone services including aerial photography, videography, surveying, mapping, inspection, and agricultural monitoring."
+                "question": "What services does SwiftDrones offer?",
+                "answer": "Swift Drones provides a wide range of drone services, especially througout Luxembourg, including aerial photography, videography, surveying, mapping, inspection, and agricultural monitoring."
+            },
+            {
+                "question": "Does SwiftDrones focus exclusively on drone imagery, or do you also offer traditional photography services?",
+                "answer": "Yes, SwiftDrones also offers traditional photography services. Our team includes skilled photographers who can capture ground-based photos to complement our aerial shots."
             },
             {
                 "question": "How can I book a drone service?",
@@ -158,11 +162,11 @@
             },
             {
                 "question": "How can I hire a drone pilot?",
-                "answer": "Simply select a service and fill out the form. We also have a service for a custom request. If you are in any doubt, you can also contact us via email at swiftdrones.contact@gmail.com."
+                "answer": "Simply select a service and fill out the form. We also have a service for a custom request. If you are in any doubt, you can also contact us via email at swiftdrones.contact@gmail.com. The team is ready to provide professional and reliable drone services tailored to your needs."
             },
             {
                 "question": "What are the benefits of using drone photography for events?",
-                "answer": "Drone photography provides unique, breathtaking perspectives that traditional photography cannot achieve. It elevates the experience of your attendees and the memory of your event with elite coverage."
+                "answer": "Drone photography provides unique, dynamic perspectives that traditional photography cannot achieve. It elevates the experience of your attendees and the memory of your event with elite coverage."
             },
             {
                 "question": "What packages do you offer for event photography?",
@@ -181,8 +185,8 @@
                 "answer": "Operating drones in Luxembourg requires adherence to specific regulations to ensure safety and compliance. Stay informed and ensure your drone activities are within legal guidelines. Learn more about drone regulations on the official website of the Directorate of Civil Aviation."
             },
             {
-                "question": "Who are the team members at Swift Drones?",
-                "answer": "Our team consists of talented professionals like Darren, our video editor and drone pilot; Ben, our cheerful event specialist; and Tun, our operations manager who ensures flawless project execution."
+                "question": "What are UAV services and how does SwiftDrones provide them?",
+                "answer": "UAV (Unmanned Aerial Vehicle) services encompass a variety of drone operations, including aerial photography, videography, and surveying. SwiftDrones provides these services with a focus on precision, creativity, and compliance with local regulations, ensuring high-quality results for our clients, especially in Luxembourg."
             },
             {
                 "question": "How can I contact Swift Drones?",

@@ -149,48 +149,52 @@
         "title": "Questions Fréquemment Posées (FAQ)",
         "questions": [
             {
-                "question": "Quels services offre Swift Drones?",
-                "answer": "Swift Drones propose une large gamme de services de drones, y compris la photographie aérienne, la vidéographie, l'arpentage, la cartographie, l'inspection et la surveillance agricole."
+                "question": "Quels services propose SwiftDrones?",
+                "answer": "SwiftDrones propose une large gamme de services de drones, notamment au Luxembourg, incluant la photographie aérienne, la vidéographie, la topographie, la cartographie, l'inspection et la surveillance agricole."
+            },
+            {
+                "question": "SwiftDrones se concentre-t-il exclusivement sur les images de drones ou propose-t-il également des services de photographie traditionnelle?",
+                "answer": "Oui, SwiftDrones propose également des services de photographie traditionnelle. Notre équipe comprend des photographes qualifiés capables de capturer des photos au sol pour compléter nos prises de vue aériennes."
             },
             {
                 "question": "Comment puis-je réserver un service de drone?",
-                "answer": "Vous pouvez réserver un service via notre site Web en naviguant vers la page 'Services' et en sélectionnant le service dont vous avez besoin."
+                "answer": "Vous pouvez réserver un service via notre site web en naviguant vers la page 'Services' et en sélectionnant le service dont vous avez besoin."
             },
             {
                 "question": "Comment puis-je engager un pilote de drone?",
-                "answer": "Sélectionnez simplement un service et remplissez le formulaire. Nous avons également un service pour des demandes personnalisées. Si vous avez des doutes, vous pouvez également nous contacter par e-mail à swiftdrones.contact@gmail.com."
+                "answer": "Il vous suffit de sélectionner un service et de remplir le formulaire. Nous proposons également un service de demande personnalisée. Si vous avez des doutes, vous pouvez également nous contacter par email à swiftdrones.contact@gmail.com. L'équipe est prête à fournir des services de drones professionnels et fiables adaptés à vos besoins."
             },
             {
                 "question": "Quels sont les avantages de la photographie par drone pour les événements?",
-                "answer": "La photographie par drone offre des perspectives uniques et époustouflantes que la photographie traditionnelle ne peut pas atteindre. Elle améliore l'expérience de vos participants et le souvenir de votre événement grâce à une couverture de qualité supérieure."
+                "answer": "La photographie par drone offre des perspectives uniques et dynamiques que la photographie traditionnelle ne peut pas atteindre. Elle améliore l'expérience de vos invités et le souvenir de votre événement grâce à une couverture d'élite."
             },
             {
                 "question": "Quels forfaits proposez-vous pour la photographie d'événements?",
-                "answer": "Nous proposons trois forfaits : Couverture de base, Forfait standard et Forfait premium. Chaque forfait varie en termes de couverture et de livrables, des séquences vidéo brutes aux montages professionnels et aux images haute résolution."
+                "answer": "Nous proposons trois forfaits : Couverture de base, Forfait standard et Forfait premium. Chaque forfait varie en termes de couverture et de livrables, allant des séquences vidéo brutes aux vidéos montées professionnellement et aux images haute résolution."
             },
             {
                 "question": "Que comprend le forfait Basic Flyover pour l'immobilier?",
-                "answer": "Le forfait Basic Flyover comprend 5 à 10 photos aériennes et des séquences vidéo brutes de la propriété, parfait pour des présentations immobilières rapides et efficaces."
+                "answer": "Le forfait Basic Flyover comprend 5 à 10 photos aériennes et des séquences vidéo brutes de la propriété, parfait pour des présentations de propriété rapides et efficaces."
             },
             {
                 "question": "Pouvez-vous fournir des solutions de drones personnalisées?",
-                "answer": "Oui, nous proposons des solutions personnalisées adaptées à vos besoins spécifiques. Contactez-nous pour discuter de votre projet et travaillons ensemble pour créer une solution qui correspond à vos exigences et à votre budget."
+                "answer": "Oui, nous offrons des solutions personnalisées adaptées à vos besoins uniques. Contactez-nous pour discuter de votre projet et travaillons ensemble pour créer une solution qui correspond à vos exigences et à votre budget."
             },
             {
                 "question": "Quelles sont les réglementations sur les drones au Luxembourg?",
-                "answer": "L'exploitation de drones au Luxembourg nécessite le respect de réglementations spécifiques pour garantir la sécurité et la conformité. Restez informé et assurez-vous que vos activités de drones respectent les directives légales. En savoir plus sur les réglementations des drones sur le site officiel de la Direction de l'Aviation Civile."
+                "answer": "L'utilisation de drones au Luxembourg nécessite le respect de réglementations spécifiques pour assurer la sécurité et la conformité. Restez informé et assurez-vous que vos activités de drones sont conformes aux directives légales. En savoir plus sur les réglementations relatives aux drones sur le site officiel de la Direction de l'Aviation Civile."
             },
             {
-                "question": "Qui sont les membres de l'équipe de Swift Drones?",
-                "answer": "Notre équipe est composée de professionnels talentueux comme Darren, notre monteur vidéo et pilote de drone; Ben, notre spécialiste des événements joyeux; et Tun, notre directeur des opérations qui veille à l'exécution parfaite des projets."
+                "question": "Quels sont les services/prestations UAV et comment SwiftDrones les propose-t-il?",
+                "answer": "Les services UAV (Unmanned Aerial Vehicle) englobent diverses opérations de drones, incluant la photographie aérienne, la vidéographie et la topographie. SwiftDrones propose ces services avec un accent sur la précision, la créativité et la conformité aux réglementations locales, garantissant des résultats de haute qualité pour nos clients, notamment au Luxembourg."
             },
             {
-                "question": "Comment puis-je contacter Swift Drones?",
-                "answer": "Vous pouvez nous contacter par e-mail à swiftdrones.contact@gmail.com ou utiliser le formulaire de contact sur notre site Web. Nous répondons généralement aux demandes dans les 24 heures."
+                "question": "Comment puis-je contacter SwiftDrones?",
+                "answer": "Vous pouvez nous contacter par email à swiftdrones.contact@gmail.com ou utiliser le formulaire de contact sur notre site web. Nous répondons généralement aux demandes dans les 24 heures."
             },
             {
-                "question": "Que comprend le forfait standard pour la photographie immobilière?",
-                "answer": "Le forfait standard comprend 20 à 30 photos aériennes époustouflantes, une visite vidéo cinématographique de 3 à 5 minutes, des fonctionnalités de montage avancées, des prises de vue au crépuscule et une cartographie 3D, offrant une vue complète de votre propriété."
+                "question": "Que comprend le Forfait Standard pour la photographie immobilière?",
+                "answer": "Le Forfait Standard comprend 20 à 30 photos aériennes époustouflantes, une vidéo cinématique de 3 à 5 minutes, des fonctionnalités de montage avancées, des prises de vue au crépuscule et une cartographie 3D, offrant une vue complète de votre propriété."
             }
         ]
     }
