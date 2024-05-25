@@ -144,5 +144,54 @@
         "basicFlyoverOption": "Survol de Base - 249€",
         "standardPackageRealEstateOption": "Forfait Standard - 495€",
         "premiumPackageRealEstateOption": "Forfait Premium - 795€"
+    },
+    "faq": {
+        "title": "Questions Fréquemment Posées (FAQ)",
+        "questions": [
+            {
+                "question": "Quels services offre Swift Drones?",
+                "answer": "Swift Drones propose une large gamme de services de drones, y compris la photographie aérienne, la vidéographie, l'arpentage, la cartographie, l'inspection et la surveillance agricole."
+            },
+            {
+                "question": "Comment puis-je réserver un service de drone?",
+                "answer": "Vous pouvez réserver un service via notre site Web en naviguant vers la page 'Services' et en sélectionnant le service dont vous avez besoin."
+            },
+            {
+                "question": "Comment puis-je engager un pilote de drone?",
+                "answer": "Sélectionnez simplement un service et remplissez le formulaire. Nous avons également un service pour des demandes personnalisées. Si vous avez des doutes, vous pouvez également nous contacter par e-mail à swiftdrones.contact@gmail.com."
+            },
+            {
+                "question": "Quels sont les avantages de la photographie par drone pour les événements?",
+                "answer": "La photographie par drone offre des perspectives uniques et époustouflantes que la photographie traditionnelle ne peut pas atteindre. Elle améliore l'expérience de vos participants et le souvenir de votre événement grâce à une couverture de qualité supérieure."
+            },
+            {
+                "question": "Quels forfaits proposez-vous pour la photographie d'événements?",
+                "answer": "Nous proposons trois forfaits : Couverture de base, Forfait standard et Forfait premium. Chaque forfait varie en termes de couverture et de livrables, des séquences vidéo brutes aux montages professionnels et aux images haute résolution."
+            },
+            {
+                "question": "Que comprend le forfait Basic Flyover pour l'immobilier?",
+                "answer": "Le forfait Basic Flyover comprend 5 à 10 photos aériennes et des séquences vidéo brutes de la propriété, parfait pour des présentations immobilières rapides et efficaces."
+            },
+            {
+                "question": "Pouvez-vous fournir des solutions de drones personnalisées?",
+                "answer": "Oui, nous proposons des solutions personnalisées adaptées à vos besoins spécifiques. Contactez-nous pour discuter de votre projet et travaillons ensemble pour créer une solution qui correspond à vos exigences et à votre budget."
+            },
+            {
+                "question": "Quelles sont les réglementations sur les drones au Luxembourg?",
+                "answer": "L'exploitation de drones au Luxembourg nécessite le respect de réglementations spécifiques pour garantir la sécurité et la conformité. Restez informé et assurez-vous que vos activités de drones respectent les directives légales. En savoir plus sur les réglementations des drones sur le site officiel de la Direction de l'Aviation Civile."
+            },
+            {
+                "question": "Qui sont les membres de l'équipe de Swift Drones?",
+                "answer": "Notre équipe est composée de professionnels talentueux comme Darren, notre monteur vidéo et pilote de drone; Ben, notre spécialiste des événements joyeux; et Tun, notre directeur des opérations qui veille à l'exécution parfaite des projets."
+            },
+            {
+                "question": "Comment puis-je contacter Swift Drones?",
+                "answer": "Vous pouvez nous contacter par e-mail à swiftdrones.contact@gmail.com ou utiliser le formulaire de contact sur notre site Web. Nous répondons généralement aux demandes dans les 24 heures."
+            },
+            {
+                "question": "Que comprend le forfait standard pour la photographie immobilière?",
+                "answer": "Le forfait standard comprend 20 à 30 photos aériennes époustouflantes, une visite vidéo cinématographique de 3 à 5 minutes, des fonctionnalités de montage avancées, des prises de vue au crépuscule et une cartographie 3D, offrant une vue complète de votre propriété."
+            }
+        ]
     }
 }

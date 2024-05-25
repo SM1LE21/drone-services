@@ -155,6 +155,42 @@
             {
                 "question": "How can I book a drone service?",
                 "answer": "You can book a service through our website by navigating to the 'Services' page and selecting the service you need."
+            },
+            {
+                "question": "How can I hire a drone pilot?",
+                "answer": "Simply select a service and fill out the form. We also have a service for a custom request. If you are in any doubt, you can also contact us via email at swiftdrones.contact@gmail.com."
+            },
+            {
+                "question": "What are the benefits of using drone photography for events?",
+                "answer": "Drone photography provides unique, breathtaking perspectives that traditional photography cannot achieve. It elevates the experience of your attendees and the memory of your event with elite coverage."
+            },
+            {
+                "question": "What packages do you offer for event photography?",
+                "answer": "We offer three packages: Basic Coverage, Standard Package, and Premium Package. Each package varies in terms of coverage and deliverables, from raw video footage to professionally edited highlight reels and high-resolution images."
+            },
+            {
+                "question": "What does the Basic Flyover package for real estate include?",
+                "answer": "The Basic Flyover package includes 5-10 aerial photos and raw video footage of the property, perfect for quick and efficient property showcases."
+            },
+            {
+                "question": "Can you provide custom drone solutions?",
+                "answer": "Yes, we offer custom solutions tailored to your unique needs. Get in touch to discuss your project, and let's work together to create a solution that suits your requirements and budget."
+            },
+            {
+                "question": "What are the drone regulations in Luxembourg?",
+                "answer": "Operating drones in Luxembourg requires adherence to specific regulations to ensure safety and compliance. Stay informed and ensure your drone activities are within legal guidelines. Learn more about drone regulations on the official website of the Directorate of Civil Aviation."
+            },
+            {
+                "question": "Who are the team members at Swift Drones?",
+                "answer": "Our team consists of talented professionals like Darren, our video editor and drone pilot; Ben, our cheerful event specialist; and Tun, our operations manager who ensures flawless project execution."
+            },
+            {
+                "question": "How can I contact Swift Drones?",
+                "answer": "You can contact us via email at swiftdrones.contact@gmail.com or use the contact form on our website. We typically respond to inquiries within 24 hours."
+            },
+            {
+                "question": "What is included in the Standard Package for real estate photography?",
+                "answer": "The Standard Package includes 20-30 stunning aerial photos, a 3-5 minute cinematic video tour, advanced editing features, twilight shots, and 3D mapping, providing a comprehensive view of your property."
             }
         ]
     }
