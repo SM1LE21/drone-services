@@ -65,7 +65,8 @@ const Footer = () => {
           {t('footer.copyRight')}
         </p>
 
-      {/*<div className="flex flex-row md:mt-0 mt-6">
+      <div className="flex flex-row md:mt-0 mt-6">
+      <span className={`object-contain cursor-pointer mr-6 text-white`}> swiftdrones.contact@gmail.com </span>
         {socialMedia.map((social, index) => (
           <img
             key={social.id}
@@ -77,7 +78,7 @@ const Footer = () => {
             onClick={() => window.open(social.link)}
           />
         ))}
-      </div>*/}
+      </div>
     </div>
   </section>
 )};
