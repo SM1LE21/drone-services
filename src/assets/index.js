@@ -24,7 +24,7 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import drone from "./drone.png";
 import logo from "./logo.png";
-import vid from "./vid.mp4";
+import vid from "./vienna_720p.mp4";
 import weirdBlueTHing from "./weirdBlueTHing.png";
 
 export {
