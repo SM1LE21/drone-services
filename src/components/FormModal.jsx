@@ -7,8 +7,8 @@ const FormModal = ({ onClose, formType }) => {
   const handleSubmit = (event) => {
     event.preventDefault(); 
     alert(t('formModal.submitAlert'));
-    event.target.submit(); 
     onClose();
+    event.target.submit();
   };
 
   const renderTitle = () => {
@@ -112,7 +112,7 @@ const FormModal = ({ onClose, formType }) => {
             <button type="submit" className="button-17-primary inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2">
               {t('formModal.submitButtonText')}
             </button>
-            <button onClick={onClose} className="button-17 ml-4 inline-flex justify-center py-2 px-4 border  focus:outline-none focus:ring-2 focus:ring-offset-2">
+            <button type="button" onClick={onClose} className="button-17 ml-4 inline-flex justify-center py-2 px-4 border  focus:outline-none focus:ring-2 focus:ring-offset-2">
               {t('formModal.closeButtonText')}
             </button>
           </div>
