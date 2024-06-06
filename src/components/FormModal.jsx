@@ -5,8 +5,7 @@ const FormModal = ({ onClose, formType }) => {
   const { t } = useTranslation();
 
   const handleSubmit = (event) => {
-    event.preventDefault(); 
-    alert(t('formModal.submitAlert'));
+    event.preventDefault();
     onClose();
     event.target.submit();
   };
