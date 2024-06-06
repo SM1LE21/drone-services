@@ -4,10 +4,10 @@ import { useTranslation } from 'react-i18next';
 const FormModal = ({ onClose, formType }) => {
   const { t } = useTranslation();
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    onClose();
-    event.target.submit();
+  const handleDelayedClose = () => {
+    setTimeout(() => {
+      onClose();
+    }, 100); // 100 milliseconds delay
   };
 
   const renderTitle = () => {
@@ -52,7 +52,7 @@ const FormModal = ({ onClose, formType }) => {
                       w-full max-w-4xl sm:w-11/12 sm:max-w-full sm:h-11/12 sm:max-h-full sm:py-12
                       md:max-w-2xl lg:max-w-3xl xl:max-w-4xl 2xl:max-w-5xl"
                       style={{ maxHeight: "80vh" }}>
-        <form action="https://formspree.io/f/mayrvdll" method="POST" className="space-y-6" onSubmit={"/submit"}>
+        <form action="https://formspree.io/f/mayrvdll" method="POST" className="space-y-6" onSubmit={handleDelayedClose}>
           <h2 className="text-xl font-semibold text-gray-900">{renderTitle()}</h2>
           {/* User Info Fields */}
           <div>
