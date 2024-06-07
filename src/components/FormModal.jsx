@@ -7,7 +7,7 @@ const FormModal = ({ onClose, formType }) => {
   const handleDelayedClose = () => {
     setTimeout(() => {
       onClose();
-    }, 100); // 100 milliseconds delay
+    }, 0); // 100 milliseconds delay
   };
 
   const renderTitle = () => {
