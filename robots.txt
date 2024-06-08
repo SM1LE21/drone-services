@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.yoursite.com/sitemap.xml
+Sitemap: https://www.swiftdrones.net/sitemap.xml
