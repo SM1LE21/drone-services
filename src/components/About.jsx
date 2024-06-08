@@ -1,3 +1,5 @@
+import React from 'react';
+import { Helmet } from 'react-helmet';
 import styles from "../style";
 import AboutCard from "./AboutCard";
 import { useTranslation } from 'react-i18next';
@@ -7,7 +9,7 @@ const About = () => {
   const { t } = useTranslation();
   const teamMembers = t('about.team', { returnObjects: true });
 
-  // use image from constants (inherited from older version before seperating languages)
+  // use image from constants (inherited from older version before separating languages)
   const combinedTeamMembers = teamMembers.map(member => {
     const staticData = about_us.find(data => data.id === member.id);
     return { ...member, img: staticData.img };
@@ -15,6 +17,9 @@ const About = () => {
 
   return (
     <section id="about" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}>
+      <Helmet>
+        <link rel="canonical" href="https://www.swiftdrones.net/#about" />
+      </Helmet>
       <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
       <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
         <h2 className={styles.heading2}>{t('about.title')}</h2>

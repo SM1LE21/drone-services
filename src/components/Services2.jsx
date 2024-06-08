@@ -27,7 +27,7 @@ const Services2 = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="services" className={layout.section}>
+    <section className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           {t('services2.title')}

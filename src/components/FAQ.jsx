@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import styles from '../style';
 import Navbar from './Navbar'; 
@@ -15,6 +16,9 @@ const FAQ = () => {
 
     return (
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+            <Helmet>
+                <link rel="canonical" href="https://www.swiftdrones.net/faq" />
+            </Helmet>
             <div className={`${styles.boxWidth} bg-primary`}>
                 <section id="faq" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative z-10`}>
                     <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />

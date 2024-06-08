@@ -1,3 +1,5 @@
+import React from 'react';
+import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import { features } from "../constants";
 import styles, { layout } from "../style";
@@ -28,6 +30,9 @@ const Services1 = () => {
 
   return (
     <section id="services" className={layout.section}>
+      <Helmet>
+        <link rel="canonical" href="https://www.swiftdrones.net/#services" />
+      </Helmet>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           {t('services1.title')}

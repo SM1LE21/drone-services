@@ -1,13 +1,18 @@
+import React from 'react';
+import { Helmet } from 'react-helmet';
 import styles from "../style";
 import { discount, drone } from "../assets";
 import GetStarted from "./GetStarted";
 import { useTranslation } from 'react-i18next';
-import FormModal from "./FormModal";
 
 const Hero = () => {
   const { t } = useTranslation();
+
   return (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+      <Helmet>
+        <link rel="canonical" href="https://www.swiftdrones.net/" />
+      </Helmet>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
         {/* Can be used to display a discount tag
         
