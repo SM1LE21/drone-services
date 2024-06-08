@@ -6,18 +6,21 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sitemap": "node src/generate-sitemap.js"
   },
   "dependencies": {
     "i18next": "^23.11.3",
     "i18next-browser-languagedetector": "^7.2.1",
     "i18next-http-backend": "^2.5.1",
+    "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^14.1.1",
     "react-lazyload": "^3.2.1",
     "react-player": "^2.16.0",
-    "react-router-dom": "^6.23.1"
+    "react-router-dom": "^6.23.1",
+    "sitemap": "^8.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.15",
