@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import styles from "./style";
-import { CustomService, Services1, Services2, About, Clients, CTA, Footer, Navbar, Hero, DroneRegulations, FAQ } from "./components";
+import { CustomService, Services1, Services2, About, Clients, CTA, Footer, Navbar, Hero, DroneRegulations, FAQ, Gallery } from "./components";
 import './i18n';
 
 const App = () => (
@@ -37,6 +37,7 @@ const App = () => (
           </>
         } />
         <Route path="/faq" element={<FAQ />} />
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
     </div>
   </Router>

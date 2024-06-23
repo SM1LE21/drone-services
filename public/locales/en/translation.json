@@ -110,6 +110,10 @@
             "about": {
                 "id": "about",
                 "title": "About Us"
+            },
+            "gallery": {
+                "id": "gallery",
+                "title": "Gallery"
             }
         }
     },

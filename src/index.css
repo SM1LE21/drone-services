@@ -368,3 +368,28 @@ html, body {
 .cursor-pointer {
   cursor: pointer;
 }
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-item img, .gallery-item video {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.9;
+}
+
+.gallery-item:hover img, .gallery-item:hover video {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+.category {
+  margin-bottom: 2rem;
+}
+
+.images, .videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}

@@ -110,6 +110,10 @@
             "about": {
                 "id": "ueber-uns",
                 "title": "Über uns"
+            },
+            "gallery": {
+                "id": "gallery",
+                "title": "Galerie"
             }
         }
     },

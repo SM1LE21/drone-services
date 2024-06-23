@@ -14,6 +14,7 @@ import AboutCard from "./AboutCard";
 import FormModal from "./FormModal";
 import DroneRegulations from "./DroneRegulations";
 import FAQ from "./FAQ";
+import Gallery from "./Gallery";
 
 export {
   Navbar,
@@ -31,5 +32,6 @@ export {
   AboutCard,
   FormModal,
   DroneRegulations,
-  FAQ
+  FAQ,
+  Gallery
 };
