@@ -409,3 +409,10 @@ html, body {
   width: 100%;
   height: 100%;
 }
+
+
+.slider:hover .slick-next,
+.slider:hover .slick-prev {
+    opacity: 1; /* Ensure that hover effects are neutralized */
+    transition: none; /* Remove any transition effects */
+}

@@ -108,15 +108,19 @@ const Gallery = () => {
         <div key={category} className="category mb-8">
           <h3 className="text-3xl font-semibold mb-4 text-gradient">{category}</h3>
           <div className="mb-4">
+            {/* TODO remove hover effect of slider on mobile */}
             <h4 className="text-2xl font-semibold mb-2 text-white">Images</h4>
             <Slider {...settings}>
               {categories[category].images.map((image, index) => (
-                <div key={index} className="gallery-item p-2">
+                <div 
+                  key={index} 
+                  className={`gallery-item p-2`} 
+                  onClick={() => isDesktopOrLaptop && handleImageClick(category, index)}
+                >
                   <img
                     src={image}
                     alt={`Image ${index + 1} of ${category}`}
                     className="w-full h-auto cursor-pointer"
-                    onClick={() => handleImageClick(category, index)}
                     loading="lazy"
                   />
                 </div>
@@ -127,7 +131,11 @@ const Gallery = () => {
             <h4 className="text-2xl font-semibold mb-2 text-white">Videos</h4>
             <Slider {...settings}>
               {categories[category].videos.map((video, index) => (
-                <div key={index} className="gallery-item p-2">
+                <div 
+                  key={index} 
+                  className={`gallery-item p-2`} 
+                  onClick={() => isDesktopOrLaptop && handleVideoClick(category, index)}
+                >
                   <div className="relative w-full h-auto cursor-pointer">
                     <iframe
                       src={video}
@@ -137,10 +145,12 @@ const Gallery = () => {
                       className="w-full h-auto"
                       frameBorder="0"
                     ></iframe>
-                    <button
-                      className="absolute top-0 left-0 w-full h-full bg-transparent"
-                      onClick={() => handleVideoClick(category, index)}
-                    ></button>
+                    {isDesktopOrLaptop && (
+                      <button
+                        className="absolute top-0 left-0 w-full h-full bg-transparent"
+                        onClick={() => handleVideoClick(category, index)}
+                      ></button>
+                    )}
                   </div>
                 </div>
               ))}
@@ -148,7 +158,7 @@ const Gallery = () => {
           </div>
         </div>
       ))}
-      {lightboxOpen && (
+      {isDesktopOrLaptop && lightboxOpen && (
         <CustomLightbox
           slides={lightboxContent}
           currentIndex={currentIndex}
