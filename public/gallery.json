@@ -2,27 +2,36 @@
     "categories": {
       "Vienna": {
         "images": [
-          "https://lh3.googleusercontent.com/drive-viewer/AKGpihbzztzgZZdMRWuMPRTV_Cm8cRtc-vqqYmC4WdEkVk7G-CjV5D5hub8Ev_rzppASW6_vbr2A-CtpRuBSl9WoXHhYKlx9_hyAzhA=s1600-rw-v1",
-          "https://lh3.googleusercontent.com/drive-viewer/AKGpihbauKP59L6FgYcmf9v76Ajf3QonWVOe3fWA4gzBa54YBSOr_RTpEMyzgtidhEKuX71xXBLufA0gbSLyjDERpeNcy53OE94XKZY=s1600-rw-v1",
-          "https://lh3.googleusercontent.com/drive-viewer/AKGpihZ0UuhOHMcXpf8KttPZ2BsehA4J7MH5E5Y44yMJL6EtxoGOCJ5JS-ltbO5hKu6RBPpQ9HlAXjpTbKWrp71Gf1XlxnbryK0mzw=s1600-rw-v1",
-          "https://lh3.googleusercontent.com/drive-viewer/AKGpihaOxMmeBeyxaJhYvt-MWSDEIV-wv_fgNQVhCXoUmgRZAla2JOJk9t6t2n5U8NYpZ-0qK3_vSdB6B5qqBzm9iS_eN3pMd4-58A=s1600-rw-v1",
-          "https://lh3.googleusercontent.com/drive-viewer/AKGpihaXzZMk-uPGV8PiNuDd8oeQ1v8dP4c0ZJCPN9jw2V77b-ACdiV6UUNOov0NYa2LlhiJEVj2U-C5MejCwBup0ItekyNVfjjhlJw=s1600-rw-v1",
-          "https://lh3.googleusercontent.com/drive-viewer/AKGpihbyxou0Fw7HCKAaFnGDgn5CZGgQ-u0fmBFUGKL70bnuGLgYRkhxoNR282oKnTiVbB_HmFXG1pfes8ktTTTTwc5-6q5kRHcPng=s1600-rw-v1",
-          "https://lh3.googleusercontent.com/drive-viewer/AKGpihbU_spUvDmijF0clG_ZNyzi6lCS9NLt5sMEf5iXOrZhl0yOjitcTqQYiuHGP3Yn8pWmag26IfCNQWdErNF1dPjOqsokuh5JKHk=s1600-rw-v1"
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Vienna/DJI%200057.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Vienna/DJI%200033.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Vienna/DJI%200034.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Vienna/DJI%200035.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Vienna/DJI%200036.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Vienna/DJI%200037.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Vienna/DJI%200038.JPG"
         ],
         "videos": [
-          "https://drive.google.com/file/d/1BwOxRDeYYfGfpbcqR5Zfq5-ftcbUlO9Q/preview",
-          "https://drive.google.com/file/d/1BwOxRDeYYfGfpbcqR5Zfq5-ftcbUlO9Q/preview"
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Vienna/vienna_720p.mp4"
         ]
       },
-      "Croatia": {
+      "Malta": {
         "images": [
-          "https://lh3.googleusercontent.com/drive-viewer/AKGpihb1dug9ST6uV-xMnYhqQoXQ1vH46-iNh8zHMJY5vO-2cxdNMLzlS2UD_WmQ4nwUV7wob51Vy3oVnNRSaGbVktBDoe0LMj-W2CM=s1600-rw-v1",
-          "https://lh3.googleusercontent.com/drive-viewer/AKGpihaZ9_HPiwCsTN8Q3bC5YnHSdDLqCc7_BmKM6voDgcc4w2Tf640kwJym24RH8rP7ldHiz_OeV_vcKE4tTV486hjTOsajn2oK9-Q=s1600-rw-v1"
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200169.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200173.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200174.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200175.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200191.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200162.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200161.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200160.JPG"
         ],
         "videos": [
-          "https://drive.google.com/file/d/1BwOxRDeYYfGfpbcqR5Zfq5-ftcbUlO9Q/preview",
-          "https://drive.google.com/file/d/1BwOxRDeYYfGfpbcqR5Zfq5-ftcbUlO9Q/preview"
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200170.MP4",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200172.MP4",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200185.MP4",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200166.MP4",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200167.MP4"
+
         ]
       }
     }

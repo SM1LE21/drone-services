@@ -122,16 +122,11 @@ const Gallery = () => {
                 className={`gallery-item p-2`} 
                 onClick={() => isDesktopOrLaptop && handleItemClick(category, index + categories[category].images.length)}
               >
-                <div className="relative w-full h-auto cursor-pointer">
-                  <iframe
-                    src={video}
-                    width="100%"
-                    height="480"
-                    allow="autoplay"
-                    className="w-full h-auto"
-                    frameBorder="0"
-                  ></iframe>
-                </div>
+                <video
+                  src={video}
+                  className="w-full h-auto cursor-pointer"
+                  controls
+                ></video>
               </div>
             ))}
           </Slider>
@@ -149,4 +144,3 @@ const Gallery = () => {
 };
 
 export default Gallery;
-  
