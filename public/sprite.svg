@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="width: 0; height: 0; position: absolute;">
+    <symbol id="icon-menu-close" viewBox="0 0 18 18">
+        <path fill="currentColor" d="M1.03.044 18 17.014l-.942.943L.087.987z"></path>
+        <path fill="currentColor" d="M.087 17.014 17.057.043 18 .986 1.03 17.956z"></path>
+    </symbol>
+    <symbol id="icon-menu" viewBox="0 0 25 12">
+        <path fill="currentColor" d="M.713.835h24v1.722h-24zM.713 9.443h24v1.722h-24z"></path>
+    </symbol>
+    <symbol id="icon-next" viewBox="0 0 25 25">
+        <path fill="currentColor" d="m16.43 12.858-5.657 5.657-.707-.707 5.657-5.657z"></path>
+        <path fill="currentColor" d="m15.723 13.562-5.657-5.657.707-.707 5.657 5.657z"></path>
+    </symbol>
+    <symbol id="icon-prev" viewBox="0 0 25 25">
+        <path fill="currentColor" d="m8.066 12.854 5.657-5.657.707.707-5.656 5.657z"></path>
+        <path fill="currentColor" d="m8.773 12.148 5.657 5.657-.707.707-5.657-5.657z"></path>
+    </symbol>
+</svg>

@@ -16,7 +16,7 @@ const Gallery = () => {
   const [lightboxContent, setLightboxContent] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
-  
+
   const isDesktopOrLaptop = useMediaQuery({ query: '(min-width: 768px)' });
 
   useEffect(() => {
@@ -41,19 +41,11 @@ const Gallery = () => {
     fetchGalleryData();
   }, []);
 
-  const handleImageClick = (category, index) => {
+  const handleItemClick = (category, index) => {
     if (isDesktopOrLaptop) {
-      const images = categories[category].images.map(img => ({ src: img, type: 'image' }));
-      setLightboxContent(images);
-      setCurrentIndex(index);
-      setLightboxOpen(true);
-    }
-  };
-
-  const handleVideoClick = (category, index) => {
-    if (isDesktopOrLaptop) {
-      const videos = categories[category].videos.map(video => ({ src: video, type: 'video' }));
-      setLightboxContent(videos);
+      const items = categories[category].images.map(img => ({ src: img, type: 'image' }))
+        .concat(categories[category].videos.map(video => ({ src: video, type: 'video' })));
+      setLightboxContent(items);
       setCurrentIndex(index);
       setLightboxOpen(true);
     }
@@ -106,56 +98,43 @@ const Gallery = () => {
       <h2 className="text-4xl font-bold mb-6 text-white">Gallery</h2>
       {Object.keys(categories).map(category => (
         <div key={category} className="category mb-8">
-          <h3 className="text-3xl font-semibold mb-4 text-gradient">{category}</h3>
-          <div className="mb-4">
-            {/* TODO remove hover effect of slider on mobile */}
-            <h4 className="text-2xl font-semibold mb-2 text-white">Images</h4>
-            <Slider {...settings}>
-              {categories[category].images.map((image, index) => (
-                <div 
-                  key={index} 
-                  className={`gallery-item p-2`} 
-                  onClick={() => isDesktopOrLaptop && handleImageClick(category, index)}
-                >
-                  <img
-                    src={image}
-                    alt={`Image ${index + 1} of ${category}`}
-                    className="w-full h-auto cursor-pointer"
-                    loading="lazy"
-                  />
+          <h3 className="text-3xl font-semibold mb-4">
+            <span className="text-gradient">{category}</span>
+          </h3>
+          <Slider {...settings}>
+            {categories[category].images.map((image, index) => (
+              <div 
+                key={index} 
+                className={`gallery-item p-2`} 
+                onClick={() => isDesktopOrLaptop && handleItemClick(category, index)}
+              >
+                <img
+                  src={image}
+                  alt={`Image ${index + 1} of ${category}`}
+                  className="w-full h-auto cursor-pointer"
+                  loading="lazy"
+                />
+              </div>
+            ))}
+            {categories[category].videos.map((video, index) => (
+              <div 
+                key={index + categories[category].images.length} 
+                className={`gallery-item p-2`} 
+                onClick={() => isDesktopOrLaptop && handleItemClick(category, index + categories[category].images.length)}
+              >
+                <div className="relative w-full h-auto cursor-pointer">
+                  <iframe
+                    src={video}
+                    width="100%"
+                    height="480"
+                    allow="autoplay"
+                    className="w-full h-auto"
+                    frameBorder="0"
+                  ></iframe>
                 </div>
-              ))}
-            </Slider>
-          </div>
-          <div>
-            <h4 className="text-2xl font-semibold mb-2 text-white">Videos</h4>
-            <Slider {...settings}>
-              {categories[category].videos.map((video, index) => (
-                <div 
-                  key={index} 
-                  className={`gallery-item p-2`} 
-                  onClick={() => isDesktopOrLaptop && handleVideoClick(category, index)}
-                >
-                  <div className="relative w-full h-auto cursor-pointer">
-                    <iframe
-                      src={video}
-                      width="100%"
-                      height="480"
-                      allow="autoplay"
-                      className="w-full h-auto"
-                      frameBorder="0"
-                    ></iframe>
-                    {isDesktopOrLaptop && (
-                      <button
-                        className="absolute top-0 left-0 w-full h-full bg-transparent"
-                        onClick={() => handleVideoClick(category, index)}
-                      ></button>
-                    )}
-                  </div>
-                </div>
-              ))}
-            </Slider>
-          </div>
+              </div>
+            ))}
+          </Slider>
         </div>
       ))}
       {isDesktopOrLaptop && lightboxOpen && (
@@ -170,3 +149,4 @@ const Gallery = () => {
 };
 
 export default Gallery;
+  

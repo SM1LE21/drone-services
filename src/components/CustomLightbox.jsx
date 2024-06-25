@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ClipLoader from 'react-spinners/ClipLoader';
+import SpriteIcon from './SpriteIcon';
 
 const CustomLightbox = ({ slides, currentIndex, onClose }) => {
   const [index, setIndex] = useState(currentIndex);
@@ -53,11 +54,11 @@ const CustomLightbox = ({ slides, currentIndex, onClose }) => {
             ></iframe>
           </div>
         )}
-        <button onClick={prevSlide} className="absolute left-0 top-1/2 transform -translate-y-1/2 text-white text-2xl">
-          ‹
+        <button onClick={prevSlide} className="absolute left-0 top-1/2 transform -translate-y-1/2 text-white text-2xl bg-opacity-40 bg-black rounded-full">
+          <SpriteIcon name="prev"></SpriteIcon>
         </button>
-        <button onClick={nextSlide} className="absolute right-0 top-1/2 transform -translate-y-1/2 text-white text-2xl">
-          ›
+        <button onClick={nextSlide} className="absolute right-0 top-1/2 transform -translate-y-1/2 text-white text-2xl bg-opacity-40 bg-black rounded-full">
+          <SpriteIcon name="next"></SpriteIcon>
         </button>
       </div>
     </div>
