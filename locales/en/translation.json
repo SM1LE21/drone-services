@@ -110,6 +110,10 @@
             "about": {
                 "id": "about",
                 "title": "About Us"
+            },
+            "gallery": {
+                "id": "gallery",
+                "title": "Gallery"
             }
         }
     },
@@ -197,5 +201,8 @@
                 "answer": "You can contact SwiftDrones via email at swiftdrones.contact@gmail.com or use the contact form on our website. We typically respond to inquiries within 24 hours, ensuring prompt and efficient service."
             }
         ]
+    },
+    "gallery": {
+        "title": "Gallery"
     }
 }
