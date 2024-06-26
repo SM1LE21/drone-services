@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import styles from '../style';
-import Navbar from './Navbar'; 
 import Footer from './Footer';
 
 const FAQ = () => {

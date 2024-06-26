@@ -28,9 +28,9 @@ const CustomLightbox = ({ slides, currentIndex, onClose }) => {
   const currentSlide = slides[index];
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75">
-      <button onClick={onClose} className="absolute top-4 right-4 text-white text-2xl">×</button>
-      <div className="relative w-full max-w-4xl">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75" onClick={onClose}>
+      <div className="relative w-full max-w-4xl" onClick={(e) => e.stopPropagation()}>
+        <button onClick={onClose} className="absolute top-4 right-4 text-white text-2xl">×</button>
         {isLoading && (
           <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
             <ClipLoader color={"#ffffff"} loading={isLoading} size={50} />

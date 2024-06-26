@@ -370,6 +370,7 @@ html, body {
 }
 
 .gallery-item {
+  height: 300px;
   position: relative;
   overflow: hidden;
 }
@@ -377,6 +378,10 @@ html, body {
 .gallery-item img, .gallery-item video {
   transition: transform 0.3s ease, opacity 0.3s ease;
   opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image fills the width */
+  object-position: center; /* Center the image vertically */
 }
 
 .gallery-item:hover img, .gallery-item:hover video {

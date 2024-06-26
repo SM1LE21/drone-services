@@ -9,6 +9,8 @@ import styles from "../style";
 import { preloadImages } from "../utils/preloadImages";
 import CustomLightbox from "./CustomLightbox";
 import { useMediaQuery } from "react-responsive";
+import Footer from './Footer';
+import { Helmet } from 'react-helmet';
 
 const Gallery = () => {
   const [categories, setCategories] = useState({});
@@ -94,51 +96,57 @@ const Gallery = () => {
   }
 
   return (
-    <div className={styles.galleryContainer}>
-      <h2 className="text-4xl font-bold mb-6 text-white">Gallery</h2>
-      {Object.keys(categories).map(category => (
-        <div key={category} className="category mb-8">
-          <h3 className="text-3xl font-semibold mb-4">
-            <span className="text-gradient">{category}</span>
-          </h3>
-          <Slider {...settings}>
-            {categories[category].images.map((image, index) => (
-              <div 
-                key={index} 
-                className={`gallery-item p-2`} 
-                onClick={() => isDesktopOrLaptop && handleItemClick(category, index)}
-              >
-                <img
-                  src={image}
-                  alt={`Image ${index + 1} of ${category}`}
-                  className="w-full h-auto cursor-pointer"
-                  loading="lazy"
-                />
-              </div>
-            ))}
-            {categories[category].videos.map((video, index) => (
-              <div 
-                key={index + categories[category].images.length} 
-                className={`gallery-item p-2`} 
-                onClick={() => isDesktopOrLaptop && handleItemClick(category, index + categories[category].images.length)}
-              >
-                <video
-                  src={video}
-                  className="w-full h-auto cursor-pointer"
-                  controls
-                ></video>
-              </div>
-            ))}
-          </Slider>
-        </div>
-      ))}
-      {isDesktopOrLaptop && lightboxOpen && (
-        <CustomLightbox
-          slides={lightboxContent}
-          currentIndex={currentIndex}
-          onClose={() => setLightboxOpen(false)}
-        />
-      )}
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+    <Helmet>
+        <link rel="canonical" href="https://www.swiftdrones.net/gallery" />
+    </Helmet>
+      <div className={`${styles.galleryContainer} ${styles.boxWidth}`}>
+        <h2 className="text-4xl font-bold mb-6 text-white">Gallery</h2>
+        {Object.keys(categories).map(category => (
+          <div key={category} className="category mb-8">
+            <h3 className="text-3xl font-semibold mb-4">
+              <span className="text-gradient">{category}</span>
+            </h3>
+            <Slider {...settings}>
+              {categories[category].images.map((image, index) => (
+                <div 
+                  key={index} 
+                  className={`gallery-item p-2`} 
+                  onClick={() => isDesktopOrLaptop && handleItemClick(category, index)}
+                >
+                  <img
+                    src={image}
+                    alt={`Image ${index + 1} of ${category}`}
+                    className="w-full h-auto cursor-pointer"
+                    loading="lazy"
+                  />
+                </div>
+              ))}
+              {categories[category].videos.map((video, index) => (
+                <div 
+                  key={index + categories[category].images.length} 
+                  className={`gallery-item p-2`} 
+                  onClick={() => isDesktopOrLaptop && handleItemClick(category, index + categories[category].images.length)}
+                >
+                  <video
+                    src={video}
+                    className="w-full h-auto cursor-pointer"
+                    controls={!lightboxOpen}
+                  ></video>
+                </div>
+              ))}
+            </Slider>
+          </div>
+        ))}
+        {isDesktopOrLaptop && lightboxOpen && (
+          <CustomLightbox
+            slides={lightboxContent}
+            currentIndex={currentIndex}
+            onClose={() => setLightboxOpen(false)}
+          />
+        )}
+        <Footer />
+      </div>
     </div>
   );
 };
