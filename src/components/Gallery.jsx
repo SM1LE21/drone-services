@@ -19,8 +19,6 @@ const Gallery = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
 
-  const isDesktopOrLaptop = useMediaQuery({ query: '(min-width: 768px)' });
-
   useEffect(() => {
     const fetchGalleryData = async () => {
       try {
@@ -44,13 +42,11 @@ const Gallery = () => {
   }, []);
 
   const handleItemClick = (category, index) => {
-    if (isDesktopOrLaptop) {
-      const items = categories[category].images.map(img => ({ src: img, type: 'image' }))
-        .concat(categories[category].videos.map(video => ({ src: video, type: 'video' })));
-      setLightboxContent(items);
-      setCurrentIndex(index);
-      setLightboxOpen(true);
-    }
+    const items = categories[category].images.map(img => ({ src: img, type: 'image' }))
+      .concat(categories[category].videos.map(video => ({ src: video, type: 'video' })));
+    setLightboxContent(items);
+    setCurrentIndex(index);
+    setLightboxOpen(true);
   };
 
   const settings = {
@@ -97,9 +93,9 @@ const Gallery = () => {
 
   return (
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-    <Helmet>
+      <Helmet>
         <link rel="canonical" href="https://www.swiftdrones.net/gallery" />
-    </Helmet>
+      </Helmet>
       <div className={`${styles.galleryContainer} ${styles.boxWidth}`}>
         <h2 className="text-4xl font-bold mb-6 text-white">Gallery</h2>
         {Object.keys(categories).map(category => (
@@ -112,7 +108,7 @@ const Gallery = () => {
                 <div 
                   key={index} 
                   className={`gallery-item p-2`} 
-                  onClick={() => isDesktopOrLaptop && handleItemClick(category, index)}
+                  onClick={() => handleItemClick(category, index)}
                 >
                   <img
                     src={image}
@@ -126,7 +122,7 @@ const Gallery = () => {
                 <div 
                   key={index + categories[category].images.length} 
                   className={`gallery-item p-2`} 
-                  onClick={() => isDesktopOrLaptop && handleItemClick(category, index + categories[category].images.length)}
+                  onClick={() => handleItemClick(category, index + categories[category].images.length)}
                 >
                   <video
                     src={video}
@@ -138,7 +134,7 @@ const Gallery = () => {
             </Slider>
           </div>
         ))}
-        {isDesktopOrLaptop && lightboxOpen && (
+        {lightboxOpen && (
           <CustomLightbox
             slides={lightboxContent}
             currentIndex={currentIndex}
