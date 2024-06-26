@@ -26,12 +26,57 @@
           "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200160.JPG"
         ],
         "videos": [
-          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200170.MP4",
-          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200172.MP4",
-          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200185.MP4",
-          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200166.MP4",
-          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200167.MP4"
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200170_720p.mp4",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200172_720p.mp4",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200185_720p.mp4",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200166_720p.mp4",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Malta/Malta%20DJI%200167_720p.mp4"
 
+        ]
+      },
+      "Croatia - Zadar": {
+        "images": [
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Croatia/DJI_0076.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Croatia/DJI_0077.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Croatia/DJI_0082.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Croatia/DJI_0083.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Croatia/DJI_0084.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Croatia/DJI_0085.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Croatia/DJI_0086.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Croatia/DJI_0088.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Croatia/DJI_0089.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Croatia/DJI_0091.JPG"
+        ],
+        "videos": [
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Croatia/Zadar_720p.mp4"
+        ]
+      },
+      "Luxemburg - Diekirch": {
+        "images": [
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Luxemburg/Diekirch/DJI_0134.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Luxemburg/Diekirch/DJI_0141.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Luxemburg/Diekirch/DJI_0143.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Luxemburg/Diekirch/DJI_0146.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Luxemburg/Diekirch/DJI_0146.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Luxemburg/Diekirch/DJI_0147.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Luxemburg/Diekirch/DJI_0149.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Luxemburg/Diekirch/DJI_0150.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Luxemburg/Diekirch/DJI_0153.JPG"
+        ],
+        "videos": [
+        ]
+      },
+      "Luxemburg - Diekirch - Landslide": {
+        "images": [
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Luxemburg/Diekirch/Landslide/DJI_0118.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Luxemburg/Diekirch/Landslide/DJI_0119.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Luxemburg/Diekirch/Landslide/DJI_0124.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Luxemburg/Diekirch/Landslide/DJI_0126.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Luxemburg/Diekirch/Landslide/DJI_0128.JPG",
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Luxemburg/Diekirch/Landslide/DJI_0130.JPG"
+        ],
+        "videos": [
+          "https://storage.googleapis.com/swiftdrones_media_bucket/Luxemburg/Diekirch/Landslide/landslide_720p.mp4"
         ]
       }
     }
