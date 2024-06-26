@@ -201,5 +201,8 @@
                 "answer": "Vous pouvez contacter SwiftDrones par e-mail à swiftdrones.contact@gmail.com ou utiliser le formulaire de contact sur notre site web. Nous répondons généralement aux demandes dans les 24 heures, garantissant un service rapide et efficace."
             }
         ]
+    },
+    "gallery": {
+        "title": "Galerie"
     }
 }
