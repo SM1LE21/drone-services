@@ -20,7 +20,7 @@ jobs:
         echo "status=$response" >> $GITHUB_ENV
 
     - name: Check response and set failure
-      if: env.status != '3030'
+      if: env.status != '200'
       run: |
         echo "The website is down."
         echo "::set-output name=status::failure"
