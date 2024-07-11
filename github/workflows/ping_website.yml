@@ -1,0 +1,40 @@
+name: Ping Website and Notify
+
+on:
+  schedule:
+    - cron: '*/5 * * * *' # Run every 5 minutes
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  ping_and_notify:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Ping website
+      id: ping
+      run: |
+        response=$(curl -o /dev/null -s -w "%{http_code}\n" https://yourwebsite.com)
+        echo "status=$response" >> $GITHUB_ENV
+
+    - name: Check response and set failure
+      if: env.status != '200'
+      run: |
+        echo "The website is down."
+        echo "::set-output name=status::failure"
+      id: check_response
+
+    - name: Send email if down
+      if: steps.check_response.outputs.status == 'failure'
+      uses: dawidd6/action-send-mail@v3
+      with:
+        server_address: smtp.example.com
+        server_port: 587
+        username: ${{ secrets.SMTP_USERNAME }}
+        password: ${{ secrets.SMTP_PASSWORD }}
+        subject: "Website Down Alert"
+        body: "The website https://yourwebsite.com is down. Status code: ${{ env.status }}"
+        to: target@example.com
+        from: sender@example.com
