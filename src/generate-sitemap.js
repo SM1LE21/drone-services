@@ -17,11 +17,19 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 (async () => {
-  const writeStream = createWriteStream(path.join(__dirname, '../public/sitemap.xml'));
-  sitemap.pipe(writeStream);
+  try {
+    const writeStream = createWriteStream(path.join(__dirname, '../public/sitemap.xml'));
+    sitemap.pipe(writeStream);
 
-  links.forEach(link => sitemap.write(link));
-  sitemap.end();
+    links.forEach(link => sitemap.write(link));
+    sitemap.end();
 
-  await streamToPromise(sitemap).then(sm => sm.toString());
+    await streamToPromise(sitemap).then(sm => sm.toString());
+
+    writeStream.on('finish', () => {
+      console.log('Sitemap written successfully.');
+    });
+  } catch (error) {
+    console.error('Error generating sitemap:', error);
+  }
 })();
