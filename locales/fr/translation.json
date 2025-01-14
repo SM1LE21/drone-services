@@ -95,7 +95,7 @@
     "footer": {
         "logoAlt": "SwiftDrones",
         "tagline": "Élevez Votre Perspective avec l'Imagerie par Drone",
-        "copyRight": "Copyright Ⓒ 2024 SwiftDrones. Tous Droits Réservés."
+        "copyRight": "Copyright Ⓒ 2025 SwiftDrones. Tous Droits Réservés."
     },
     "buttons": {
         "getStarted": "Commencer",
@@ -129,25 +129,16 @@
         "defaultForm": "Formulaire",
         "submitAlert": "Formulaire soumis ! Nous vous recontacterons bientôt.",
         "firstNameLabel": "Prénom :",
-        "familyNameLabel": "Nom de Famille :",
+        "familyNameLabel": "Nom :",
         "emailLabel": "Adresse Email :",
         "phoneLabel": "Numéro de Téléphone (Optionnel) :",
-        "shootDateTimeLabel": "Date et Heure Souhaitées pour la Séance (Optionnel) :",
-        "pitchProject": "Présentez ou expliquez votre vision ici, et nous vous recontacterons pour en discuter en détail.",
+        "shootDateTimeLabel": "Date et Heure Préférées (Optionnel) :",
+        "pitchProject": "Expliquez-nous votre vision, et nous reviendrons vers vous avec une proposition personnalisée.",
         "projectDetailsLabel": "Détails du Projet :",
-        "projectDetailsPlaceholder": "Commencez à décrire votre projet ici...",
-        "choosePackageLabel": "Choisissez un Forfait :",
-        "additionalInfoLabel": "Informations Supplémentaires (Optionnel) :",
-        "additionalInfoPlaceholder": "Ajoutez ici tout détail ou demande supplémentaire...",
-        "responseTimeInfo": "Nous répondons généralement aux demandes dans les 24 heures.",
+        "projectDetailsPlaceholder": "Décrivez votre vision ici...",
+        "responseTimeInfo": "Nous répondons généralement dans les 24 heures.",
         "submitButtonText": "Soumettre",
-        "closeButtonText": "Fermer",
-        "basicCoverageOption": "Couverture de Base - 299€",
-        "standardPackageOption": "Forfait Standard - 595€",
-        "premiumPackageOption": "Forfait Premium - 895€",
-        "basicFlyoverOption": "Survol de Base - 249€",
-        "standardPackageRealEstateOption": "Forfait Standard - 495€",
-        "premiumPackageRealEstateOption": "Forfait Premium - 795€"
+        "closeButtonText": "Fermer"
     },
     "faq": {
         "title": "Questions Fréquemment Posées (FAQ)",
