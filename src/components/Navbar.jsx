@@ -29,7 +29,7 @@ const Navbar = () => {
   const navLinks = [
     { id: t('nav.links.services.id'), title: t('nav.links.services.title'), path: '#services' },
     { id: t('nav.links.about.id'), title: t('nav.links.about.title'), path: '#about' },
-    { id: 'gallery', title: t('nav.links.gallery.title'), path: '/gallery' },  // Added gallery link
+    // { id: 'gallery', title: t('nav.links.gallery.title'), path: '/gallery' },  // Added gallery link
     { id: 'faq', title: 'FAQ', path: '/faq' }
   ];
 
